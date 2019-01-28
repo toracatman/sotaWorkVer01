@@ -1,0 +1,12 @@
+Main-Class: main.main
+Class-Path: . 
+ /home/vstone/lib/commons-codec-1.10.jar 
+ /home/vstone/lib/core-2.2.jar 
+ /home/vstone/lib/gson-2.6.1.jar 
+ /home/vstone/lib/javase-2.2.jar 
+ /home/vstone/lib/jna-4.1.0.jar 
+ /home/vstone/lib/opencv-310.jar 
+ /home/vstone/lib/SotaAppManager.jar 
+ /home/vstone/lib/sotalib.jar 
+ /home/vstone/lib/SRClientHelper.jar 
+ /home/root//lib/jsoup-1.11.3.jar 
