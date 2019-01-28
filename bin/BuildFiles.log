@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <BuildOmitCheck xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <javacPath>E:\VstoneMagic\jdk\bin\javac.exe</javacPath>
-  <argument> -d "E:\sota\sotaWorkVer01\bin"  -g -Xlint:deprecation   -cp ".;C:\Users\user\VstoneMagicData\jar\commons-codec-1.10.jar;C:\Users\user\VstoneMagicData\jar\core-2.2.jar;C:\Users\user\VstoneMagicData\jar\gson-2.6.1.jar;C:\Users\user\VstoneMagicData\jar\javase-2.2.jar;C:\Users\user\VstoneMagicData\jar\jna-4.1.0.jar;C:\Users\user\VstoneMagicData\jar\opencv-310.jar;C:\Users\user\VstoneMagicData\jar\SotaAppManager.jar;C:\Users\user\VstoneMagicData\jar\sotalib.jar;C:\Users\user\VstoneMagicData\jar\SRClientHelper.jar;E:\pleiades\jsoup\jsoup-1.11.3.jar"  -encoding UTF-8 </argument>
+  <argument> -d "E:\sota\sotaWorkVer01\bin"  -g -Xlint:deprecation   -cp ".;C:\Users\user\VstoneMagicData\jar\commons-codec-1.10.jar;C:\Users\user\VstoneMagicData\jar\core-2.2.jar;C:\Users\user\VstoneMagicData\jar\gson-2.6.1.jar;C:\Users\user\VstoneMagicData\jar\javase-2.2.jar;C:\Users\user\VstoneMagicData\jar\jna-4.1.0.jar;C:\Users\user\VstoneMagicData\jar\opencv-310.jar;C:\Users\user\VstoneMagicData\jar\SotaAppManager.jar;C:\Users\user\VstoneMagicData\jar\sotalib.jar;C:\Users\user\VstoneMagicData\jar\SRClientHelper.jar;E:\sota\sotaWorkVer01\jar\jsoup-1.11.3.jar"  -encoding UTF-8 </argument>
   <files>
     <FileData>
       <path>jp\co\mysota\mymain.java</path>
-      <timestamp>2019-01-28T12:16:29.1853899+09:00</timestamp>
+      <timestamp>2019-01-28T12:20:32.0483892+09:00</timestamp>
       <size>139816</size>
-      <ignore>false</ignore>
+      <ignore>true</ignore>
     </FileData>
   </files>
 </BuildOmitCheck>

@@ -9,4 +9,4 @@ Class-Path: .
  /home/vstone/lib/SotaAppManager.jar 
  /home/vstone/lib/sotalib.jar 
  /home/vstone/lib/SRClientHelper.jar 
- /home/root//lib/jsoup-1.11.3.jar 
+ ./lib/jsoup-1.11.3.jar 

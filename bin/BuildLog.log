@@ -1,7 +1,7 @@
 VstoneMagic Build&Execute Message Log
-BuildStart time:2019/01/28 12:16:29
+BuildStart time:2019/01/28 14:00:39
 ビルドを開始します。
-E:\VstoneMagic\jdk\bin\javac.exe  -d "E:\sota\sotaWorkVer01\bin"  -g -Xlint:deprecation   -cp ".;C:\Users\user\VstoneMagicData\jar\commons-codec-1.10.jar;C:\Users\user\VstoneMagicData\jar\core-2.2.jar;C:\Users\user\VstoneMagicData\jar\gson-2.6.1.jar;C:\Users\user\VstoneMagicData\jar\javase-2.2.jar;C:\Users\user\VstoneMagicData\jar\jna-4.1.0.jar;C:\Users\user\VstoneMagicData\jar\opencv-310.jar;C:\Users\user\VstoneMagicData\jar\SotaAppManager.jar;C:\Users\user\VstoneMagicData\jar\sotalib.jar;C:\Users\user\VstoneMagicData\jar\SRClientHelper.jar;E:\pleiades\jsoup\jsoup-1.11.3.jar"  -encoding UTF-8 "E:\sota\sotaWorkVer01\src\main\main.java" "E:\sota\sotaWorkVer01\src\jp\co\mysota\mymain.java" 
+E:\VstoneMagic\jdk\bin\javac.exe  -d "E:\sota\sotaWorkVer01\bin"  -g -Xlint:deprecation   -cp ".;C:\Users\user\VstoneMagicData\jar\commons-codec-1.10.jar;C:\Users\user\VstoneMagicData\jar\core-2.2.jar;C:\Users\user\VstoneMagicData\jar\gson-2.6.1.jar;C:\Users\user\VstoneMagicData\jar\javase-2.2.jar;C:\Users\user\VstoneMagicData\jar\jna-4.1.0.jar;C:\Users\user\VstoneMagicData\jar\opencv-310.jar;C:\Users\user\VstoneMagicData\jar\SotaAppManager.jar;C:\Users\user\VstoneMagicData\jar\sotalib.jar;C:\Users\user\VstoneMagicData\jar\SRClientHelper.jar;E:\sota\sotaWorkVer01\jar\jsoup-1.11.3.jar"  -encoding UTF-8 "E:\sota\sotaWorkVer01\src\main\main.java" 
 
 正常にコンパイルできました。
 
