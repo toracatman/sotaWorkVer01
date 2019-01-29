@@ -1,26 +1,101 @@
 VstoneMagic Build&Execute Message Log
-BuildStart time:2019/01/28 14:00:39
-ビルドを開始します。
-E:\VstoneMagic\jdk\bin\javac.exe  -d "E:\sota\sotaWorkVer01\bin"  -g -Xlint:deprecation   -cp ".;C:\Users\user\VstoneMagicData\jar\commons-codec-1.10.jar;C:\Users\user\VstoneMagicData\jar\core-2.2.jar;C:\Users\user\VstoneMagicData\jar\gson-2.6.1.jar;C:\Users\user\VstoneMagicData\jar\javase-2.2.jar;C:\Users\user\VstoneMagicData\jar\jna-4.1.0.jar;C:\Users\user\VstoneMagicData\jar\opencv-310.jar;C:\Users\user\VstoneMagicData\jar\SotaAppManager.jar;C:\Users\user\VstoneMagicData\jar\sotalib.jar;C:\Users\user\VstoneMagicData\jar\SRClientHelper.jar;E:\sota\sotaWorkVer01\jar\jsoup-1.11.3.jar"  -encoding UTF-8 "E:\sota\sotaWorkVer01\src\main\main.java" 
+BuildStart time:2019/01/29 15:13:18
+ビルドの更新がありません。
 
-正常にコンパイルできました。
 
 jarファイルの作成
-マニフェストファイルを作成します。
-jarファイルを作成します。
-E:\VstoneMagic\jdk\bin\jar.exe cvfm sotaWorkVer01.jar Manifest.mf main jp\co\mysota
-マニフェストが追加されました
-main/を追加中です(入=0)(出=0)(0%格納されました)
-main/main$GlobalVariable.classを追加中です(入=1625)(出=794)(51%収縮されました)
-main/main.classを追加中です(入=2179)(出=1183)(45%収縮されました)
-jp/co/mysota/を追加中です(入=0)(出=0)(0%格納されました)
-jp/co/mysota/mymain$1.classを追加中です(入=1160)(出=718)(38%収縮されました)
-jp/co/mysota/mymain.classを追加中です(入=53465)(出=17840)(66%収縮されました)
 
-jarファイルを作成しました。
+
+jarファイルの更新はありません
+
 
 送信ファイルの上書き確認
+
+スタートアップアプリケーションの停止
+echo "STOP_STARTUP" > /home/vstone/vstonemagic/menu.fifoロボットのSFTPへ接続します。
+192.168.32.63@root
+..
+
+
+ファイルの転送
+ロボットにファイルを転送します。
+Connect to 192.168.32.63@root...接続しました。
+ファイルの転送を開始します。
+No send:'E:\sota\sotaWorkVer01\jar\jsoup-1.11.3.jar'
+No send:'E:\sota\sotaWorkVer01\bin\sotaWorkVer01.jar'
+
 
 アプリケーション登録用のアーカイブファイルを作成
 ..
 ビルドが完了しました。
+
+
+jarファイルの実行
+ロボットのSSHへ接続します。
+192.168.32.63@root
+java -Dfile.encoding=UTF8 -Djava.library.path=/usr/local/share/OpenCV/java/  -Xdebug -Xrunjdwp:transport=dt_socket,server=y,address=8765 -jar sotaWorkVer01.jar 2>&1 &ファイルの転送が完了しました。java -Dfile.encoding=UTF8 -Djava.library.path=/usr/local/share/OpenCV/java/  -Xdebug -Xrunjdwp:transport=dt_socket,server=y,address=8765 -jar sotaWorkVer01.jar 2>&1 &
+[1;32mroot@edison:~$[m java -Dfile.encoding=UTF8 -Djava.library.path=/usr/local/share/OpenCV/java/  -Xdebug -Xrunjdwp:transport=dt_socket,server=y,address=8765 -jar sotaWorkVer01.jar 2>&1 &
+[1] 10215
+[1;32mroot@edison:~$[m デバッグの準備ができました。
+
+jdbの実行
+デバッガを起動します。
+E:\VstoneMagic\jdk\bin\jdb.exe -connect com.sun.jdi.SocketAttach:hostname=192.168.32.63,port=8765
+Listening for transport dt_socket at address: 8765
+捕捉されないjava.lang.Throwableの設定遅延した捕捉されないjava.lang.Throwableの設定jdbの初期化中...デバッグ実行のスタンバイができました。
+> VMが開始されました: 現在のコール・スタックにフレームがありません[Info][SpeechRecog]SpeechRecog
+[Info][CRoboCamera]class jp.vstone.RobotLib.CSotaMotion
+[Info][CRobotSock]Connected server
+[Info][CRobotMotion]MasterCtrlPeriod 16666
+[Info][MotionAsSotaWish]stop
+[Info][MotionAsSotaWish][Say][scene:talk]プログラムを実行開始します
+[Info][TextToSpeechSota][TTS_USE_CACHE] /var/sota/tts//1548208883203.wav
+[Info][CPlayWave]Play /var/sota/tts//1548208883203.wav
+[Info][CPlayWave]isEdison
+[Info][CPlayWave]play------- 10237
+[Info][MotionAsSotaWish]play 2583
+[Info][MotionAsSotaWish][play][talk] [2183msec]
+[Info][CRoboCamera]StartTask MODE_FACE_TRACK
+[Error][CameraCapture]init_device error -2004
+[Info][CameraCapture][sotalib][camera_open_error]
+java.io.IOException: can not init video device
+	at jp.vstone.camera.CameraCapture.onThrowCamError(CameraCapture.java:468)
+	at jp.vstone.camera.CameraCapture.openDevice(CameraCapture.java:317)
+	at jp.vstone.camera.CRoboCamera.openCapture(CRoboCamera.java:172)
+	at jp.vstone.camera.CRoboCamera.StartFaceDetectProc(CRoboCamera.java:481)
+	at jp.vstone.camera.CRoboCamera.StartTask(CRoboCamera.java:291)
+	at jp.vstone.camera.CRoboCamera.StartFaceTraking(CRoboCamera.java:357)
+	at jp.co.mysota.mymain.faceTracking(mymain.java:71)
+	at jp.co.mysota.mymain.main(mymain.java:220)
+	at main.main.main(main.java:43)
+VIDIOC_STREAMOFF error 16, Device or resource busy
+close error 9, Bad file descriptor
+java.io.IOException: can not init video device
+	at jp.vstone.camera.CameraCapture.onThrowCamError(CameraCapture.java:468)
+	at jp.vstone.camera.CameraCapture.openDevice(CameraCapture.java:317)
+	at jp.vstone.camera.CRoboCamera.openCapture(CRoboCamera.java:172)
+	at jp.vstone.camera.CRoboCamera.StartFaceDetectProc(CRoboCamera.java:481)
+	at jp.vstone.camera.CRoboCamera.StartTask(CRoboCamera.java:291)
+	at jp.vstone.camera.CRoboCamera.StartFaceTraking(CRoboCamera.java:357)
+	at jp.co.mysota.mymain.faceTracking(mymain.java:71)
+	at jp.co.mysota.mymain.main(mymain.java:220)
+	at main.main.main(main.java:43)
+java.io.IOException: can not init video device
+	at jp.vstone.camera.CameraCapture.onThrowCamError(CameraCapture.java:468)
+	at jp.vstone.camera.CameraCapture.openDevice(CameraCapture.java:317)
+	at jp.vstone.camera.CRoboCamera.openCapture(CRoboCamera.java:172)
+	at jp.vstone.camera.CRoboCamera.StartFaceDetectProc(CRoboCamera.java:481)
+	at jp.vstone.camera.CRoboCamera.StartTask(CRoboCamera.java:291)
+	at jp.vstone.camera.CRoboCamera.StartFaceTraking(CRoboCamera.java:357)
+	at jp.co.mysota.mymain.faceTracking(mymain.java:71)
+	at jp.co.mysota.mymain.main(mymain.java:220)
+	at main.main.main(main.java:43)
+[Info][CRoboCamera][sotalib][camera_open_error]
+
+kill ` jps|grep "^[0-9]\+ jar" |awk '{print $1}'`
+中断します。
+exit[1;32mroot@edison:~$[m 
+main[1] > [1;32mroot@edison:~$[m killListening for transport dt_socket at address: 8765
+ ` jps|grep "^[0-9]\+ jar" |awk '{print $1}'`
+
+ロボットとの通信を切断しました。
