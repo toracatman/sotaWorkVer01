@@ -1,5 +1,5 @@
 VstoneMagic Build&Execute Message Log
-BuildStart time:2019/01/30 11:58:37
+BuildStart time:2019/01/30 13:55:05
 ビルドを開始します。
 E:\VstoneMagic\jdk\bin\javac.exe  -d "E:\sota\sotaWorkVer01\bin"  -g -Xlint:deprecation   -cp ".;C:\Users\user\VstoneMagicData\jar\commons-codec-1.10.jar;C:\Users\user\VstoneMagicData\jar\core-2.2.jar;C:\Users\user\VstoneMagicData\jar\gson-2.6.1.jar;C:\Users\user\VstoneMagicData\jar\javase-2.2.jar;C:\Users\user\VstoneMagicData\jar\jna-4.1.0.jar;C:\Users\user\VstoneMagicData\jar\opencv-310.jar;C:\Users\user\VstoneMagicData\jar\SotaAppManager.jar;C:\Users\user\VstoneMagicData\jar\sotalib.jar;C:\Users\user\VstoneMagicData\jar\SRClientHelper.jar;E:\sota\sotaWorkVer01\jar\jsoup-1.11.3.jar"  -encoding UTF-8 "E:\sota\sotaWorkVer01\src\main\main.java" "E:\sota\sotaWorkVer01\src\jp\co\mysota\mymain.java" 
 
@@ -14,8 +14,8 @@ main/を追加中です(入=0)(出=0)(0%格納されました)
 main/main$GlobalVariable.classを追加中です(入=1625)(出=794)(51%収縮されました)
 main/main.classを追加中です(入=2179)(出=1183)(45%収縮されました)
 jp/co/mysota/を追加中です(入=0)(出=0)(0%格納されました)
-jp/co/mysota/mymain$1.classを追加中です(入=1160)(出=718)(38%収縮されました)
-jp/co/mysota/mymain.classを追加中です(入=55740)(出=19307)(65%収縮されました)
+jp/co/mysota/mymain$1.classを追加中です(入=1160)(出=719)(38%収縮されました)
+jp/co/mysota/mymain.classを追加中です(入=56322)(出=19539)(65%収縮されました)
 
 jarファイルを作成しました。
 
@@ -45,7 +45,7 @@ jarファイルの実行
 192.168.32.63@root
 java -Dfile.encoding=UTF8 -Djava.library.path=/usr/local/share/OpenCV/java/  -Xdebug -Xrunjdwp:transport=dt_socket,server=y,address=8765 -jar sotaWorkVer01.jar 2>&1 &ファイルの転送が完了しました。java -Dfile.encoding=UTF8 -Djava.library.path=/usr/local/share/OpenCV/java/  -Xdebug -Xrunjdwp:transport=dt_socket,server=y,address=8765 -jar sotaWorkVer01.jar 2>&1 &
 [1;32mroot@edison:~$[m java -Dfile.encoding=UTF8 -Djava.library.path=/usr/local/share/OpenCV/java/  -Xdebug -Xrunjdwp:transport=dt_socket,server=y,address=8765 -jar sotaWorkVer01.jar 2>&1 &
-[1] 28648
+[1] 31772
 [1;32mroot@edison:~$[m デバッグの準備ができました。
 
 jdbの実行
@@ -62,7 +62,7 @@ Listening for transport dt_socket at address: 8765
 [Info][TextToSpeechSota][TTS_USE_CACHE] /var/sota/tts//1548810967731.wav
 [Info][CPlayWave]Play /var/sota/tts//1548810967731.wav
 [Info][CPlayWave]isEdison
-[Info][CPlayWave]play------- 28670
+[Info][CPlayWave]play------- 31794
 [Info][MotionAsSotaWish]play 2583
 [Info][MotionAsSotaWish][play][talk] [2183msec]
 [Info][CRoboCamera]StartTask MODE_FACE_TRACK
@@ -76,41 +76,71 @@ Listening for transport dt_socket at address: 8765
 [Info][TextToSpeechSota][TTS_USE_CACHE] /var/sota/tts//1548810628430.wav
 [Info][CPlayWave]Play /var/sota/tts//1548810628430.wav
 [Info][CPlayWave]isEdison
-[Info][CPlayWave]play------- 28713
+[Info][CPlayWave]play------- 31830
 [Info][MotionAsSotaWish]play 3073
 [Info][MotionAsSotaWish][play][talk] [2673msec]
-[Info][SpeechRecog][getRecognition][Score:0.9356315319354718]十月に秋田市で開催されるイベント
-[Info][SpeechRecog][getRecognition][Score:0.8693356147179238]十月に秋田秋田市で開催されるイベント
-[Info][SpeechRecog][getRecognition][Score:0.8457981989933895]１０二秋田市で開催されるイベント
-[Info][SpeechRecog][getRecognition][Score:0.8712290250338042]十月に市で開催されるイベント
-[Info][SpeechRecog][getRecognition][Score:0.8977388235238882]十月二秋田市で開催されるイベント
-[Info][SpeechRecog][getRecognition][Score:0.870951872605544]十月にで開催されるイベント
-[Info][SpeechRecog][getRecognition][Score:0.8775501251220703]一〇月に秋田市で開催されるイベント
-[Info][SpeechRecog][getRecognition][Score:0.8772057753342849]十に秋田市で開催されるイベント
-[Info][SpeechRecog][getRecognition][Score:0.883690907404973]１０に秋田市で開催されるイベント
-[Info][SpeechRecog][getRecognition][BasicResult] 十月に秋田市で開催されるイベント
 [Info][MotionAsSotaWish]stop
 [Info][MotionAsSotaWish]cplay stop start
 [Info][MotionAsSotaWish]cplay stop end
-[Info][MotionAsSotaWish][Say][scene:talk]ちょっと待ってね
-[Info][TextToSpeechSota][TTS_USE_CACHE] /var/sota/tts//1548642061851.wav
-[Info][CPlayWave]removeShutdownHook
-[Info][CPlayWave]Play /var/sota/tts//1548642061851.wav
+[Info][MotionAsSotaWish][Say][scene:talk]ようこそ 秋田県庁 第二庁舎 へ
+[Info][TextToSpeechSota][TTS_USE_CACHE] /var/sota/tts//1548810628430.wav
+[Info][CPlayWave]Play /var/sota/tts//1548810628430.wav
 [Info][CPlayWave]isEdison
+[Info][CPlayWave]play------- 31860
+[Info][MotionAsSotaWish]play 3073
+[Info][MotionAsSotaWish][play][talk] [2673msec]
 [Info][CPlayWave]removeShutdownHook
-[Info][CPlayWave]play------- 28763
-[Info][MotionAsSotaWish]play 1329
-[Info][MotionAsSotaWish][play][talk] [929msec]
+[Info][CPlayWave]removeShutdownHook
+[Info][SpeechRecog][getRecognition][Score:0.8350288073221842]いくつにみえる
+[Info][SpeechRecog][getRecognition][Score:0.9951755205790201]いくつに見える
+[Info][SpeechRecog][getRecognition][BasicResult] いくつに見える
 [Info][MotionAsSotaWish]stop
 [Info][MotionAsSotaWish]cplay stop start
 [Info][MotionAsSotaWish]cplay stop end
-[Info][MotionAsSotaWish][Say][scene:talk]1件も見つかりませんでした。
-[Info][TextToSpeechSota][get:1件も見つかりませんでした。][speechRate:11][pitch:13]][intonation:11][lang:null]
+[Info][MotionAsSotaWish][Say][scene:talk]あなたは15歳ですね
+[Info][TextToSpeechSota][get:あなたは15歳ですね][speechRate:11][pitch:13]][intonation:11][lang:null]
 [Info][CPlayWave]Play /dev/shm/wavtemptts0.wav
 [Info][CPlayWave]isEdison
-[Info][CPlayWave]play------- 28824
-[Info][MotionAsSotaWish]play 2232
-[Info][MotionAsSotaWish][play][talk] [1832msec]
+[Info][CPlayWave]play------- 31905
+[Info][MotionAsSotaWish]play 2212
+[Info][MotionAsSotaWish][play][talk] [1812msec]
+[Info][CPlayWave]removeShutdownHook
+[Info][SpeechRecog][getRecognition][Score:0.6761008898417155]いくつにみえる絵
+[Info][SpeechRecog][getRecognition][Score:0.8305883407592773]いくつに見えるａ
+[Info][SpeechRecog][getRecognition][Score:0.826562484105428]いくつにみえる
+[Info][SpeechRecog][getRecognition][Score:0.9870344003041585]いくつに見える
+[Info][SpeechRecog][getRecognition][Score:0.8305672009785969]いくつに見えるで
+[Info][SpeechRecog][getRecognition][Score:0.8365727265675862]いくつに見える絵
+[Info][SpeechRecog][getRecognition][Score:0.8305160204569498]いくつに見えるう
+[Info][SpeechRecog][getRecognition][Score:0.8306616147359211]いくつに見えるへ
+[Info][SpeechRecog][getRecognition][BasicResult] いくつに見える
+[Info][MotionAsSotaWish]stop
+[Info][MotionAsSotaWish]cplay stop start
+[Info][MotionAsSotaWish]cplay stop end
+[Info][MotionAsSotaWish][Say][scene:talk]あなたは19歳ですね
+[Info][TextToSpeechSota][get:あなたは19歳ですね][speechRate:11][pitch:13]][intonation:11][lang:null]
+[Info][CPlayWave]Play /dev/shm/wavtemptts1.wav
+[Info][CPlayWave]isEdison
+[Info][CPlayWave]play------- 32035
+[Info][MotionAsSotaWish]play 2301
+[Info][MotionAsSotaWish][play][talk] [1901msec]
+[Info][CPlayWave]removeShutdownHook
+[Info][SpeechRecog][getRecognition][Score:0.6803087393442789]
+[Info][SpeechRecog][getRecognition][Score:0.6700162887573242]い
+[Info][SpeechRecog][getRecognition][Score:0.6696155865987141]お
+[Info][SpeechRecog][getRecognition][Score:0.6771196524302164]二
+[Info][SpeechRecog][getRecognition][Score:0.6705484390258789]は
+[Info][SpeechRecog][getRecognition][BasicResult] 
+[Info][MotionAsSotaWish]stop
+[Info][MotionAsSotaWish]cplay stop start
+[Info][MotionAsSotaWish]cplay stop end
+[Info][MotionAsSotaWish][Say][scene:talk]ごめんなさい 聞き取れませんでした
+[Info][TextToSpeechSota][TTS_USE_CACHE] /var/sota/tts//1548810995198.wav
+[Info][CPlayWave]Play /var/sota/tts//1548810995198.wav
+[Info][CPlayWave]isEdison
+[Info][CPlayWave]play------- 32155
+[Info][MotionAsSotaWish]play 2511
+[Info][MotionAsSotaWish][play][talk] [2111msec]
 [Info][CPlayWave]removeShutdownHook
 [Info][MotionAsSotaWish]stop
 [Info][MotionAsSotaWish]cplay stop start
@@ -119,56 +149,83 @@ Listening for transport dt_socket at address: 8765
 [Info][TextToSpeechSota][TTS_USE_CACHE] /var/sota/tts//1548810628430.wav
 [Info][CPlayWave]Play /var/sota/tts//1548810628430.wav
 [Info][CPlayWave]isEdison
-[Info][CPlayWave]play------- 28854
+[Info][CPlayWave]play------- 32268
+[Info][MotionAsSotaWish]play 3073
+[Info][MotionAsSotaWish][play][talk] [2673msec]
+[Info][SpeechRecog][getRecognition][Score:0.6788506507873535]リエル
+[Info][SpeechRecog][getRecognition][Score:0.6803956031799316]見える
+[Info][SpeechRecog][getRecognition][Score:0.6818419297536213]ｍｉｘｉ
+[Info][SpeechRecog][getRecognition][Score:0.6778609752655029]ｒｉｅｎａ
+[Info][SpeechRecog][getRecognition][Score:0.6800506114959717]ｄｌ
+[Info][SpeechRecog][getRecognition][Score:0.6877405643463135]肉
+[Info][SpeechRecog][getRecognition][Score:0.708377997080485]イエナ
+[Info][SpeechRecog][getRecognition][Score:0.6823437213897705]ｎｉｆｔｙ
+[Info][SpeechRecog][getRecognition][BasicResult] イエナ
+[Info][MotionAsSotaWish]stop
+[Info][MotionAsSotaWish]cplay stop start
+[Info][MotionAsSotaWish]cplay stop end
+[Info][MotionAsSotaWish][Say][scene:talk]ごめんなさい 聞き取れませんでした
+[Info][TextToSpeechSota][TTS_USE_CACHE] /var/sota/tts//1548810995198.wav
+[Info][CPlayWave]Play /var/sota/tts//1548810995198.wav
+[Info][CPlayWave]isEdison
+[Info][CPlayWave]play------- 32340
+[Info][MotionAsSotaWish]play 2511
+[Info][MotionAsSotaWish][play][talk] [2111msec]
+[Info][CPlayWave]removeShutdownHook
+[Info][CPlayWave]removeShutdownHook
+[Info][MotionAsSotaWish]stop
+[Info][MotionAsSotaWish]cplay stop start
+[Info][MotionAsSotaWish]cplay stop end
+[Info][MotionAsSotaWish][Say][scene:talk]ようこそ 秋田県庁 第二庁舎 へ
+[Info][TextToSpeechSota][TTS_USE_CACHE] /var/sota/tts//1548810628430.wav
+[Info][CPlayWave]Play /var/sota/tts//1548810628430.wav
+[Info][CPlayWave]isEdison
+[Info][CPlayWave]play------- 32380
 [Info][MotionAsSotaWish]play 3073
 [Info][MotionAsSotaWish][play][talk] [2673msec]
 [Info][CPlayWave]removeShutdownHook
-[Info][SpeechRecog][getRecognition][Score:0.8494964327130998]二月に市で開催されるイベント
-[Info][SpeechRecog][getRecognition][Score:0.8485336303710938]二月に横手横手市で開催されるイベント
-[Info][SpeechRecog][getRecognition][Score:0.8398606436593191]二月横手市で開催されるイベント
-[Info][SpeechRecog][getRecognition][Score:0.8398361206054688]二月市で開催されるイベント
-[Info][SpeechRecog][getRecognition][Score:0.8495208195277623]二月に横手市で開催されるイベント
-[Info][SpeechRecog][getRecognition][BasicResult] 二月に横手市で開催されるイベント
+[Info][SpeechRecog][getRecognition][Score:0.6700274149576823]いくつにみえる絵
+[Info][SpeechRecog][getRecognition][Score:0.8341681162516276]いくつにみえる
+[Info][SpeechRecog][getRecognition][Score:0.9942055543263753]いくつに見える
+[Info][SpeechRecog][getRecognition][Score:0.8300648530324299]いくつに見える絵
+[Info][SpeechRecog][getRecognition][BasicResult] いくつに見える
 [Info][MotionAsSotaWish]stop
 [Info][MotionAsSotaWish]cplay stop start
 [Info][MotionAsSotaWish]cplay stop end
-[Info][MotionAsSotaWish][Say][scene:talk]ちょっと待ってね
-[Info][TextToSpeechSota][TTS_USE_CACHE] /var/sota/tts//1548642061851.wav
-[Info][CPlayWave]Play /var/sota/tts//1548642061851.wav
+[Info][MotionAsSotaWish][Say][scene:talk]あなたは21歳ですね
+[Info][TextToSpeechSota][get:あなたは21歳ですね][speechRate:11][pitch:13]][intonation:11][lang:null]
+[Info][CPlayWave]Play /dev/shm/wavtemptts2.wav
 [Info][CPlayWave]isEdison
-[Info][CPlayWave]play------- 29117
-[Info][MotionAsSotaWish]play 1329
-[Info][MotionAsSotaWish][play][talk] [929msec]
+[Info][CPlayWave]play------- 32425
+[Info][MotionAsSotaWish]play 2364
+[Info][MotionAsSotaWish][play][talk] [1964msec]
 [Info][CPlayWave]removeShutdownHook
+[Info][SpeechRecog][getRecognition][Score:0.7170982360839844]
+[Info][SpeechRecog][getRecognition][Score:0.6882067521413167]ゴーゴー
+[Info][SpeechRecog][getRecognition][Score:0.6903874079386393]ｇｏｎｅ
+[Info][SpeechRecog][getRecognition][Score:0.6896583239237467]おお
+[Info][SpeechRecog][getRecognition][Score:0.7178552945454915]ｇｏ
+[Info][SpeechRecog][getRecognition][Score:0.6868375937143961]ゴーン
+[Info][SpeechRecog][getRecognition][Score:0.7333884239196777]ｇｏｇｏ
+[Info][SpeechRecog][getRecognition][Score:0.6948753992716471]ｇｏｏｎ
+[Info][SpeechRecog][getRecognition][Score:0.6942808628082275]ｏ
+[Info][SpeechRecog][getRecognition][BasicResult] ｇｏｇｏ
 [Info][MotionAsSotaWish]stop
 [Info][MotionAsSotaWish]cplay stop start
 [Info][MotionAsSotaWish]cplay stop end
-[Info][MotionAsSotaWish][Say][scene:talk]4件見つかりました。
-[Info][TextToSpeechSota][TTS_USE_CACHE] /var/sota/tts//1548816724754.wav
-[Info][CPlayWave]Play /var/sota/tts//1548816724754.wav
+[Info][MotionAsSotaWish][Say][scene:talk]ごめんなさい 聞き取れませんでした
+[Info][TextToSpeechSota][TTS_USE_CACHE] /var/sota/tts//1548810995198.wav
+[Info][CPlayWave]Play /var/sota/tts//1548810995198.wav
 [Info][CPlayWave]isEdison
-[Info][CPlayWave]play------- 29144
-[Info][MotionAsSotaWish]play 1747
-[Info][MotionAsSotaWish][play][talk] [1347msec]
+[Info][CPlayWave]play------- 32471
+[Info][MotionAsSotaWish]play 2511
+[Info][MotionAsSotaWish][play][talk] [2111msec]
 [Info][CPlayWave]removeShutdownHook
-[Info][MotionAsSotaWish]stop
-[Info][MotionAsSotaWish]cplay stop start
-[Info][MotionAsSotaWish]cplay stop end
-[Info][MotionAsSotaWish][Say][scene:talk]横山津恵展～秋田県立近代美術館～ イベント期間：2018年12月01日 ～ 2019年02月11日 横手市 昨年没後10年を迎えた秋田市出身の日本画家、横山津恵の回顧展を開催します。 本展では院展に出品を続け秋田の日本画壇を牽引した横山の、初期からの晩年にかけての作品と資料を展示します。 横山が生涯にわたり追究し続けた、女性美の数々をお楽しみください。 【開催期間】平成30年12月1日(土)～平成31年2月11日(月・祝) 【場所】　　秋田県立近代美術館（秋田ふるさと村内） 【開館時間】午前９時３０分～午後５時まで（入館は午後４時３０分まで） 【観覧料】　一般５００円 【休館日】年末休館　２０１８年１２月２９日（土）～１２月３１日（月） 　　　　　メンテナンス休館　２０１９年１月１５日（火）～１月２４日（木） くわしくはこちらから　http://www.pref.akita.jp/gakusyu/public_html/
-[Info][TextToSpeechSota][get:横山津恵展～秋田県立近代美術館～ イベント期間：2018年12月01日 ～ 2019年02月11日 横手市 昨年没後10年を迎えた秋田市出身の日本画家、横山津恵の回顧展を開催します。 本展では院展に出品を続け秋田の日本画壇を牽引した横山の、初期からの晩年にかけての作品と資料を展示します。 横山が生涯にわたり追究し続けた、女性美の数々をお楽しみください。 【開催期間】平成30年12月1日(土)～平成31年2月11日(月・祝) 【場所】　　秋田県立近代美術館（秋田ふるさと村内） 【開館時間】午前９時３０分～午後５時まで（入館は午後４時３０分まで） 【観覧料】　一般５００円 【休館日】年末休館　２０１８年１２月２９日（土）～１２月３１日（月） 　　　　　メンテナンス休館　２０１９年１月１５日（火）～１月２４日（木） くわしくはこちらから　http://www.pref.akita.jp/gakusyu/public_html/][speechRate:11][pitch:13]][intonation:11][lang:null]
-[Info][CPlayWave]removeShutdownHook
-[Info][CPlayWave]Play /dev/shm/wavtemptts1.wav
-[Info][CPlayWave]isEdison
-[Info][CPlayWave]play------- 29188
-[Info][MotionAsSotaWish]play 80129
-[Info][MotionAsSotaWish][play][talk] [79729msec]
 
-kill ` jps|grep "^[0-9]\+ jar" |awk '{print $1}'`中断します。
-exit
-[1;32mroot@edison:~$[m main[1] > 
-[1;32mroot@edison:~$[m kill ` jps|grListening for transport dt_socket at address: 8765
-ep "^[0-9]\+ jar" |awk '{print $1}'`
+kill ` jps|grep "^[0-9]\+ jar" |awk '{print $1}'`Listening for transport dt_socket at address: 8765
+
+中断します。
+exit[1;32mroot@edison:~$[m 
+[1;32mroot@edison:~$[m kmain[1] > ill ` jps|grep "^[0-9]\+ jar" |awk '{print $1}'`
 
 ロボットとの通信を切断しました。
-failed in sendDebugCommand:quit
-StandardIn がリダイレクトされていません。
