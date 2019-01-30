@@ -1,5 +1,5 @@
 VstoneMagic Build&Execute Message Log
-BuildStart time:2019/01/29 15:13:18
+BuildStart time:2019/01/30 10:51:21
 ビルドの更新がありません。
 
 
@@ -35,7 +35,7 @@ jarファイルの実行
 192.168.32.63@root
 java -Dfile.encoding=UTF8 -Djava.library.path=/usr/local/share/OpenCV/java/  -Xdebug -Xrunjdwp:transport=dt_socket,server=y,address=8765 -jar sotaWorkVer01.jar 2>&1 &ファイルの転送が完了しました。java -Dfile.encoding=UTF8 -Djava.library.path=/usr/local/share/OpenCV/java/  -Xdebug -Xrunjdwp:transport=dt_socket,server=y,address=8765 -jar sotaWorkVer01.jar 2>&1 &
 [1;32mroot@edison:~$[m java -Dfile.encoding=UTF8 -Djava.library.path=/usr/local/share/OpenCV/java/  -Xdebug -Xrunjdwp:transport=dt_socket,server=y,address=8765 -jar sotaWorkVer01.jar 2>&1 &
-[1] 10215
+[1] 23270
 [1;32mroot@edison:~$[m デバッグの準備ができました。
 
 jdbの実行
@@ -47,55 +47,166 @@ Listening for transport dt_socket at address: 8765
 [Info][CRoboCamera]class jp.vstone.RobotLib.CSotaMotion
 [Info][CRobotSock]Connected server
 [Info][CRobotMotion]MasterCtrlPeriod 16666
+[Info][SpeechRecog][getRecognition][Score:0.6310299396514893]いま何
+[Info][SpeechRecog][getRecognition][Score:0.766912841796875]今何
+[Info][SpeechRecog][getRecognition][Score:0.6324571132659913]いま今何度
+[Info][SpeechRecog][getRecognition][Score:0.7683400630950928]今今何度
+[Info][SpeechRecog][getRecognition][Score:0.9581972122192384]今何時
+[Info][SpeechRecog][getRecognition][Score:0.8223144531250001]いま何時
+[Info][SpeechRecog][getRecognition][Score:0.7961137294769287]何時
+[Info][SpeechRecog][getRecognition][Score:0.7655010223388672]今何度
+[Info][SpeechRecog][getRecognition][BasicResult] 今何時
 [Info][MotionAsSotaWish]stop
-[Info][MotionAsSotaWish][Say][scene:talk]プログラムを実行開始します
-[Info][TextToSpeechSota][TTS_USE_CACHE] /var/sota/tts//1548208883203.wav
-[Info][CPlayWave]Play /var/sota/tts//1548208883203.wav
+[Info][MotionAsSotaWish][Say][scene:talk]いま10時51分です。お仕事ですか？お疲れ様です
+[Info][TextToSpeechSota][get:いま10時51分です。お仕事ですか？お疲れ様です][speechRate:11][pitch:13]][intonation:11][lang:null]
+[Info][CPlayWave]Play /dev/shm/wavtemptts0.wav
 [Info][CPlayWave]isEdison
-[Info][CPlayWave]play------- 10237
-[Info][MotionAsSotaWish]play 2583
-[Info][MotionAsSotaWish][play][talk] [2183msec]
-[Info][CRoboCamera]StartTask MODE_FACE_TRACK
-[Error][CameraCapture]init_device error -2004
-[Info][CameraCapture][sotalib][camera_open_error]
-java.io.IOException: can not init video device
-	at jp.vstone.camera.CameraCapture.onThrowCamError(CameraCapture.java:468)
-	at jp.vstone.camera.CameraCapture.openDevice(CameraCapture.java:317)
-	at jp.vstone.camera.CRoboCamera.openCapture(CRoboCamera.java:172)
-	at jp.vstone.camera.CRoboCamera.StartFaceDetectProc(CRoboCamera.java:481)
-	at jp.vstone.camera.CRoboCamera.StartTask(CRoboCamera.java:291)
-	at jp.vstone.camera.CRoboCamera.StartFaceTraking(CRoboCamera.java:357)
-	at jp.co.mysota.mymain.faceTracking(mymain.java:71)
-	at jp.co.mysota.mymain.main(mymain.java:220)
-	at main.main.main(main.java:43)
-VIDIOC_STREAMOFF error 16, Device or resource busy
-close error 9, Bad file descriptor
-java.io.IOException: can not init video device
-	at jp.vstone.camera.CameraCapture.onThrowCamError(CameraCapture.java:468)
-	at jp.vstone.camera.CameraCapture.openDevice(CameraCapture.java:317)
-	at jp.vstone.camera.CRoboCamera.openCapture(CRoboCamera.java:172)
-	at jp.vstone.camera.CRoboCamera.StartFaceDetectProc(CRoboCamera.java:481)
-	at jp.vstone.camera.CRoboCamera.StartTask(CRoboCamera.java:291)
-	at jp.vstone.camera.CRoboCamera.StartFaceTraking(CRoboCamera.java:357)
-	at jp.co.mysota.mymain.faceTracking(mymain.java:71)
-	at jp.co.mysota.mymain.main(mymain.java:220)
-	at main.main.main(main.java:43)
-java.io.IOException: can not init video device
-	at jp.vstone.camera.CameraCapture.onThrowCamError(CameraCapture.java:468)
-	at jp.vstone.camera.CameraCapture.openDevice(CameraCapture.java:317)
-	at jp.vstone.camera.CRoboCamera.openCapture(CRoboCamera.java:172)
-	at jp.vstone.camera.CRoboCamera.StartFaceDetectProc(CRoboCamera.java:481)
-	at jp.vstone.camera.CRoboCamera.StartTask(CRoboCamera.java:291)
-	at jp.vstone.camera.CRoboCamera.StartFaceTraking(CRoboCamera.java:357)
-	at jp.co.mysota.mymain.faceTracking(mymain.java:71)
-	at jp.co.mysota.mymain.main(mymain.java:220)
-	at main.main.main(main.java:43)
-[Info][CRoboCamera][sotalib][camera_open_error]
+[Info][CPlayWave]play------- 23343
+[Info][MotionAsSotaWish]play 5011
+[Info][MotionAsSotaWish][play][talk] [4611msec]
+[Info][SpeechRecog][getRecognition][Score:0.8417840685163225]橋の天気は
+[Info][SpeechRecog][getRecognition][Score:0.8399861199515206]行の天気は
+[Info][SpeechRecog][getRecognition][Score:0.946615491594587]きょうの天気は
+[Info][SpeechRecog][getRecognition][Score:0.7405494281223841]今日のてんきは
+[Info][SpeechRecog][getRecognition][Score:0.8540372848510742]今日の天気は
+[Info][SpeechRecog][getRecognition][Score:0.833127634865897]きょうのてんきは
+[Info][SpeechRecog][getRecognition][Score:0.840332235608782]羊の天気は
+[Info][SpeechRecog][getRecognition][Score:0.8403445652553013]表の天気は
+[Info][SpeechRecog][getRecognition][Score:0.8458429064069475]京の天気は
+[Info][SpeechRecog][getRecognition][Score:0.8413147245134626]杏の天気は
+[Info][SpeechRecog][getRecognition][BasicResult] きょうの天気は
+[Info][MotionAsSotaWish]stop
+[Info][MotionAsSotaWish]cplay stop start
+[Info][MotionAsSotaWish]cplay stop end
+[Info][MotionAsSotaWish][Say][scene:talk]ちょっと待ってね
+[Info][TextToSpeechSota][TTS_USE_CACHE] /var/sota/tts//1548642061851.wav
+[Info][CPlayWave]Play /var/sota/tts//1548642061851.wav
+[Info][CPlayWave]isEdison
+[Info][CPlayWave]play------- 23364
+[Info][MotionAsSotaWish]play 1329
+[Info][MotionAsSotaWish][play][talk] [929msec]
+[Info][CPlayWave]removeShutdownHook
+[Info][MotionAsSotaWish]stop
+[Info][MotionAsSotaWish]cplay stop start
+[Info][MotionAsSotaWish]cplay stop end
+[Info][MotionAsSotaWish][Say][scene:talk]今日の天気は曇時々晴。ちなみに明日は曇時々雪
+[Info][TextToSpeechSota][TTS_USE_CACHE] /var/sota/tts//1548809671092.wav
+[Info][CPlayWave]Play /var/sota/tts//1548809671092.wav
+[Info][CPlayWave]isEdison
+[Info][CPlayWave]play------- 23369
+[Info][MotionAsSotaWish]play 5692
+[Info][MotionAsSotaWish][play][talk] [5292msec]
+[Info][SpeechRecog][getRecognition][Score:0.8292249043782551]は何日
+[Info][SpeechRecog][getRecognition][Score:0.8276764551798502]京は何日
+[Info][SpeechRecog][getRecognition][Score:0.7166132926940918]今日何日
+[Info][SpeechRecog][getRecognition][Score:0.7709514300028483]きょうは
+[Info][SpeechRecog][getRecognition][Score:0.8277601401011149]橋は何日
+[Info][SpeechRecog][getRecognition][Score:0.8276071548461914]杏は何日
+[Info][SpeechRecog][getRecognition][Score:0.8272177378336588]経は何日
+[Info][SpeechRecog][getRecognition][Score:0.9352634747823079]きょうは何日
+[Info][SpeechRecog][getRecognition][Score:0.8769280910491943]今日は何日
+[Info][SpeechRecog][getRecognition][Score:0.7749485969543457]きょう何日
+[Info][SpeechRecog][getRecognition][BasicResult] きょうは何日
+[Info][MotionAsSotaWish]stop
+[Info][MotionAsSotaWish]cplay stop start
+[Info][MotionAsSotaWish]cplay stop end
+[Info][MotionAsSotaWish][Say][scene:talk]ちょっと待ってね
+[Info][TextToSpeechSota][TTS_USE_CACHE] /var/sota/tts//1548642061851.wav
+[Info][CPlayWave]Play /var/sota/tts//1548642061851.wav
+[Info][CPlayWave]isEdison
+[Info][CPlayWave]play------- 23390
+[Info][MotionAsSotaWish]play 1329
+[Info][MotionAsSotaWish][play][talk] [929msec]
+[Info][CPlayWave]removeShutdownHook
+[Info][CPlayWave]removeShutdownHook
+[Info][MotionAsSotaWish]stop
+[Info][MotionAsSotaWish]cplay stop start
+[Info][MotionAsSotaWish]cplay stop end
+[Info][MotionAsSotaWish][Say][scene:talk]今日は1月30日 ３分間電話の日です
+[Info][TextToSpeechSota][TTS_USE_CACHE] /var/sota/tts//1548809712964.wav
+[Info][CPlayWave]Play /var/sota/tts//1548809712964.wav
+[Info][CPlayWave]isEdison
+[Info][CPlayWave]play------- 23397
+[Info][MotionAsSotaWish]play 4270
+[Info][MotionAsSotaWish][play][talk] [3870msec]
+[Info][SpeechRecog][getRecognition][Score:0.8877308185283955]３に秋田市で開催されるイベント
+[Info][SpeechRecog][getRecognition][Score:0.8749014047475963]三月に市で開催されるイベント
+[Info][SpeechRecog][getRecognition][Score:0.9425224157480093]三月に秋田市で開催されるイベント
+[Info][SpeechRecog][getRecognition][Score:0.873052010169396]三月に秋田秋田市で開催されるイベント
+[Info][SpeechRecog][getRecognition][Score:0.8949023026686449]三月ニ秋田市で開催されるイベント
+[Info][SpeechRecog][getRecognition][Score:0.9045341198260968]三月二秋田市で開催されるイベント
+[Info][SpeechRecog][getRecognition][BasicResult] 三月に秋田市で開催されるイベント
+[Info][MotionAsSotaWish]stop
+[Info][MotionAsSotaWish]cplay stop start
+[Info][MotionAsSotaWish]cplay stop end
+[Info][MotionAsSotaWish][Say][scene:talk]ちょっと待ってね
+[Info][TextToSpeechSota][TTS_USE_CACHE] /var/sota/tts//1548642061851.wav
+[Info][CPlayWave]Play /var/sota/tts//1548642061851.wav
+[Info][CPlayWave]isEdison
+[Info][CPlayWave]play------- 23418
+[Info][MotionAsSotaWish]play 1329
+[Info][MotionAsSotaWish][play][talk] [929msec]
+[Info][CPlayWave]removeShutdownHook
+[Info][MotionAsSotaWish]stop
+[Info][MotionAsSotaWish]cplay stop start
+[Info][MotionAsSotaWish]cplay stop end
+[Info][MotionAsSotaWish][Say][scene:talk]ないよ
+[Info][TextToSpeechSota][TTS_USE_CACHE] /var/sota/tts//1548740582930.wav
+[Info][CPlayWave]Play /var/sota/tts//1548740582930.wav
+[Info][CPlayWave]isEdison
+[Info][CPlayWave]play------- 23425
+[Info][MotionAsSotaWish]play 804
+[Info][MotionAsSotaWish][play][talk] [404msec]
+[Info][SpeechRecog][getRecognition][Score:0.6437579393386841]九月煮
+[Info][SpeechRecog][getRecognition][Score:0.7608975768089294]九月に
+[Info][SpeechRecog][getRecognition][Score:0.7301660180091858]九月二
+[Info][SpeechRecog][getRecognition][Score:0.60854572057724]９二
+[Info][SpeechRecog][getRecognition][Score:0.6392773389816284]９に
+[Info][SpeechRecog][getRecognition][BasicResult] 九月に
+[Info][MotionAsSotaWish]stop
+[Info][MotionAsSotaWish]cplay stop start
+[Info][MotionAsSotaWish]cplay stop end
+[Info][MotionAsSotaWish][Say][scene:talk]ごめんなさい 聞き取れませんでした
+[Info][TextToSpeechSota][TTS_USE_CACHE] /var/sota/tts//1548810995198.wav
+[Info][CPlayWave]Play /var/sota/tts//1548810995198.wav
+[Info][CPlayWave]isEdison
+[Info][CPlayWave]play------- 23446
+[Info][MotionAsSotaWish]play 2511
+[Info][MotionAsSotaWish][play][talk] [2111msec]
+[Info][SpeechRecog][getRecognition][Score:0.824522078037262]九月ににかほ市市で開催されるイベント二
+[Info][SpeechRecog][getRecognition][Score:0.8154045939445496]九月ににかほで開催されるイベント
+[Info][SpeechRecog][getRecognition][Score:0.8337140083312988]九月ににかほ市で開催されるイベント二
+[Info][SpeechRecog][getRecognition][Score:0.8213294148445129]九月ににかほ市で開催されるイベント
+[Info][SpeechRecog][getRecognition][Score:0.8277891874313354]九月ににかほで開催されるイベント二
+[Info][SpeechRecog][getRecognition][BasicResult] 九月ににかほ市で開催されるイベント二
+[Info][CPlayWave]removeShutdownHook
+[Info][MotionAsSotaWish]stop
+[Info][MotionAsSotaWish]cplay stop start
+[Info][MotionAsSotaWish]cplay stop end
+[Info][MotionAsSotaWish][Say][scene:talk]ちょっと待ってね
+[Info][TextToSpeechSota][TTS_USE_CACHE] /var/sota/tts//1548642061851.wav
+[Info][CPlayWave]Play /var/sota/tts//1548642061851.wav
+[Info][CPlayWave]isEdison
+[Info][CPlayWave]play------- 23466
+[Info][MotionAsSotaWish]play 1329
+[Info][MotionAsSotaWish][play][talk] [929msec]
+[Info][MotionAsSotaWish]stop
+[Info][MotionAsSotaWish]cplay stop start
+[Info][MotionAsSotaWish]cplay stop end
+[Info][MotionAsSotaWish][Say][scene:talk]ないよ
+[Info][TextToSpeechSota][TTS_USE_CACHE] /var/sota/tts//1548740582930.wav
+[Info][CPlayWave]Play /var/sota/tts//1548740582930.wav
+[Info][CPlayWave]isEdison
+[Info][CPlayWave]play------- 23472
+[Info][MotionAsSotaWish]play 804
+[Info][MotionAsSotaWish][play][talk] [404msec]
 
-kill ` jps|grep "^[0-9]\+ jar" |awk '{print $1}'`
-中断します。
-exit[1;32mroot@edison:~$[m 
-main[1] > [1;32mroot@edison:~$[m killListening for transport dt_socket at address: 8765
- ` jps|grep "^[0-9]\+ jar" |awk '{print $1}'`
+kill ` jps|grep "^[0-9]\+ jar" |awk '{print $1}'`中断します。
+exit
+[1;32mroot@edison:~$[m 
+[1;32mroot@edison:~$[m kill ` Listening for transport dt_socket at address: 8765
+jps|main[1] > grep "^[0-9]\+ jar" |awk '{print $1}'`
+[1;32mroot@edison:~$[m exit
+logout
 
 ロボットとの通信を切断しました。
