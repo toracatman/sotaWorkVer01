@@ -670,14 +670,14 @@ public class mymain
 	}																													//@<EndOfBlock/>
 
 	//@<Separate/>
-	public void talk1()																									//@<BlockInfo>jp.vstone.block.func,32,4032,608,4032,False,151,@</BlockInfo>
+	public void talk1()																									//@<BlockInfo>jp.vstone.block.func,32,4032,608,4032,False,153,@</BlockInfo>
 	throws SpeechRecogAbortException {
 		if(!GlobalVariable.TRUE) throw new SpeechRecogAbortException("default");
 
 																														//@<OutputChild>
-		recogresult = GlobalVariable.recog.getRecognitionwithAbort((int)60000);											//@<BlockInfo>jp.vstone.block.talk.speechrecog.regex2,96,576,544,576,False,150,音声認識を行い、結果を条件に正規表現文字列で比較する。認識スコアが一番高い結果に分岐する。実際に認識された文字列はspeechRecogResultに代入される@</BlockInfo>
+		recogresult = GlobalVariable.recog.getRecognitionwithAbort((int)60000);											//@<BlockInfo>jp.vstone.block.talk.speechrecog.regex2,96,576,544,576,False,152,音声認識を行い、結果を条件に正規表現文字列で比較する。認識スコアが一番高い結果に分岐する。実際に認識された文字列はspeechRecogResultに代入される@</BlockInfo>
 		speechRecogResult = recogresult.CheckBest(new String[]{
-		 ".*こんにちは.*" ,  ".*ここはどこ.*" ,  ".*お名前は.*" ,  "(.*バイバイ.*|.*さようなら.*)" ,  ".*おはよう.*" ,  ".*元気.*" ,  ".*今日の天気は.*" ,  ".*ありがとう.*" ,  ".*今日は何日.*" ,  ".*いま何時.*" ,  ".*教育庁.*" ,  ".*高校教育.*" ,  ".*特別支援教育.*" ,  ".*義務教育.*" ,  ".*保健体育.*" ,  ".*幼保.*" ,  ".*公営企業.*" ,  ".*うまいもの.*" ,  ".*スポーツ振興.*" ,  ".*文化振興.*" ,  ".*文化財保護.*" ,  ".*生涯学習.*" ,  ".*福利.*" ,  ".*施設整備.*" ,  ".*情報規格.*" ,  ".*情報化研修.*" ,  ".*総合防災.*" ,  ".*災害対策本部.*" ,  ".*産業労働.*" ,  ".*三ローブ.*" ,  ".*デジタル.*" ,  ".*資源エネルギー産業.*" ,  ".*産業集積.*" ,  ".*産業政策.*" ,  ".*地域産業振興.*" ,  ".*ちさんか.*" ,  ".*食品工業.*" ,  ".*輸送機.*" ,  ".*商業貿易.*" ,  ".*雇用労働.*" ,  ".*活性化センター.*" ,  ".*観光文化スポーツ.*" ,  ".*観光連盟.*" ,  ".*観光振興.*" ,  ".*交通政策.*" ,  ".*観光戦略.*" ,  ".*北秋田市.*観光スポット.*" ,  ".*秋田市.*観光スポット.*" ,  ".*仙北市.*観光スポット.*" ,  ".*横手市.*観光スポット.*" ,  ".*由利本荘市.*観光スポット.*" ,  ".*大館市.*観光スポット.*" ,  ".*男鹿市.*観光スポット.*" ,  ".*湯沢市.*観光スポット.*" ,  ".*鹿角市.*観光スポット.*" ,  ".*八峰町.*観光スポット.*" ,  ".*小坂町.*観光スポット.*" ,  ".*上小阿仁村.*観光スポット.*" ,  ".*藤里町.*観光スポット.*" ,  ".*三種町.*観光スポット.*" ,  ".*五城目町.*観光スポット.*" ,  ".*八郎潟町.*観光スポット.*" ,  ".*井川町.*観光スポット.*" ,  ".*能代市.*観光スポット.*" ,  ".*大潟村.*観光スポット.*" ,  ".*美郷町.*観光スポット.*" ,  ".*羽後町.*観光スポット.*" ,  ".*東成瀬村.*観光スポット.*" ,  ".*潟上市.*観光スポット.*" ,  ".*にかほ市.*観光スポット.*" ,  ".*大仙市.*観光スポット.*" ,  ".+に.*で.*イベント.*" ,  ".*いくつに見える.*" ,  "" , 
+		 ".*こんにちは.*" ,  ".*ここはどこ.*" ,  ".*お名前は.*" ,  "(.*バイバイ.*|.*さようなら.*)" ,  ".*おはよう.*" ,  ".*元気.*" ,  ".*今日の天気は.*" ,  ".*ありがとう.*" ,  ".*今日は何日.*" ,  ".*いま何時.*" ,  ".*教育庁.*" ,  ".*高校教育.*" ,  ".*特別支援教育.*" ,  ".*義務教育.*" ,  ".*保健体育.*" ,  ".*幼保.*" ,  ".*公営企業.*" ,  ".*うまいもの.*" ,  ".*スポーツ振興.*" ,  ".*文化振興.*" ,  ".*文化財保護.*" ,  ".*生涯学習.*" ,  ".*福利.*" ,  ".*施設整備.*" ,  ".*情報規格.*" ,  ".*情報化研修.*" ,  ".*総合防災.*" ,  ".*災害対策本部.*" ,  ".*産業労働.*" ,  ".*三ローブ.*" ,  ".*デジタル.*" ,  ".*資源エネルギー産業.*" ,  ".*産業集積.*" ,  ".*産業政策.*" ,  ".*地域産業振興.*" ,  ".*ちさんか.*" ,  ".*食品工業.*" ,  ".*輸送機.*" ,  ".*商業貿易.*" ,  ".*雇用労働.*" ,  ".*活性化センター.*" ,  ".*観光文化スポーツ.*" ,  ".*観光連盟.*" ,  ".*観光振興.*" ,  ".*交通政策.*" ,  ".*観光戦略.*" ,  ".*北秋田市.*観光スポット.*" ,  ".*秋田市.*観光スポット.*" ,  ".*仙北市.*観光スポット.*" ,  ".*横手市.*観光スポット.*" ,  ".*由利本荘市.*観光スポット.*" ,  ".*大館市.*観光スポット.*" ,  ".*男鹿市.*観光スポット.*" ,  ".*湯沢市.*観光スポット.*" ,  ".*鹿角市.*観光スポット.*" ,  ".*八峰町.*観光スポット.*" ,  ".*小坂町.*観光スポット.*" ,  ".*上小阿仁村.*観光スポット.*" ,  ".*藤里町.*観光スポット.*" ,  ".*三種町.*観光スポット.*" ,  ".*五城目町.*観光スポット.*" ,  ".*八郎潟町.*観光スポット.*" ,  ".*井川町.*観光スポット.*" ,  ".*能代市.*観光スポット.*" ,  ".*大潟村.*観光スポット.*" ,  ".*美郷町.*観光スポット.*" ,  ".*羽後町.*観光スポット.*" ,  ".*東成瀬村.*観光スポット.*" ,  ".*潟上市.*観光スポット.*" ,  ".*にかほ市.*観光スポット.*" ,  ".*大仙市.*観光スポット.*" ,  ".+に.+で.*イベント.*" ,  ".+の.+のイベント.*" ,  ".*いくつに見える.*" ,  "" , 
 		},true);
 		if(speechRecogResult == null) speechRecogResult = "";
 
@@ -3363,13 +3363,23 @@ public class mymain
 																																//@</OutputChild>
 
 		}
-		else if(speechRecogResult.contains((String)".+に.*で.*イベント.*"))
+		else if(speechRecogResult.contains((String)".+に.+で.*イベント.*"))
 		{
 			speechRecogResult = recogresult.getBasicResult();
 			if(speechRecogResult == null) speechRecogResult = "";
 
 																														//@<OutputChild>
-				sayEvent();																									//@<BlockInfo>jp.vstone.block.callfunc.base,160,7392,160,7392,False,147,@</BlockInfo>	@<EndOfBlock/>
+				sayEvent((String)"に",(String)"で");																			//@<BlockInfo>jp.vstone.block.callfunc.base,160,7392,160,7392,False,147,@</BlockInfo>	@<EndOfBlock/>
+																																//@</OutputChild>
+
+		}
+		else if(speechRecogResult.contains((String)".+の.+のイベント.*"))
+		{
+			speechRecogResult = recogresult.getBasicResult();
+			if(speechRecogResult == null) speechRecogResult = "";
+
+																														//@<OutputChild>
+				sayEvent((String)"の",(String)"の");																			//@<BlockInfo>jp.vstone.block.callfunc.base,160,7488,160,7488,False,148,@</BlockInfo>	@<EndOfBlock/>
 																																//@</OutputChild>
 
 		}
@@ -3379,9 +3389,9 @@ public class mymain
 			if(speechRecogResult == null) speechRecogResult = "";
 
 																														//@<OutputChild>
-				GlobalVariable.faceresult = GlobalVariable.robocam.getDetectResult();										//@<BlockInfo>jp.vstone.block.facedetect.age.get2,160,7488,160,7488,False,148,現在認識している顔の年齢がfaceDetectResultAgeに格納される。顔が認識されない場合、faceDetectResultAgeに-1が代入される。@</BlockInfo>
+				GlobalVariable.faceresult = GlobalVariable.robocam.getDetectResult();										//@<BlockInfo>jp.vstone.block.facedetect.age.get2,160,7584,160,7584,False,150,現在認識している顔の年齢がfaceDetectResultAgeに格納される。顔が認識されない場合、faceDetectResultAgeに-1が代入される。@</BlockInfo>
 				faceDetectResultAge = GlobalVariable.faceresult.getAge();													//@<EndOfBlock/>
-				GlobalVariable.sotawish.stop();																				//@<BlockInfo>jp.vstone.block.talk.say,224,7488,224,7488,False,196,@</BlockInfo>
+				GlobalVariable.sotawish.stop();																				//@<BlockInfo>jp.vstone.block.talk.say,224,7584,224,7584,False,149,@</BlockInfo>
 				if(cplay != null){
 				    cplay.stop();
 				}
@@ -3420,7 +3430,7 @@ public class mymain
 			if(speechRecogResult == null) speechRecogResult = "";
 
 																														//@<OutputChild>
-				GlobalVariable.sotawish.stop();																				//@<BlockInfo>jp.vstone.block.talk.say,160,7584,160,7584,False,149,@</BlockInfo>
+				GlobalVariable.sotawish.stop();																				//@<BlockInfo>jp.vstone.block.talk.say,160,7680,160,7680,False,151,@</BlockInfo>
 				if(cplay != null){
 				    cplay.stop();
 				}
@@ -3459,12 +3469,12 @@ public class mymain
 	}																													//@<EndOfBlock/>
 
 	//@<Separate/>
-	public void sayDate()																								//@<BlockInfo>jp.vstone.block.func,720,2048,1424,2048,False,162,@</BlockInfo>
+	public void sayDate()																								//@<BlockInfo>jp.vstone.block.func,720,2048,1424,2048,False,164,@</BlockInfo>
 	throws SpeechRecogAbortException {
 		if(!GlobalVariable.TRUE) throw new SpeechRecogAbortException("default");
 
 																														//@<OutputChild>
-		GlobalVariable.sotawish.stop();																					//@<BlockInfo>jp.vstone.block.talk.say,784,2048,784,2048,False,161,@</BlockInfo>
+		GlobalVariable.sotawish.stop();																					//@<BlockInfo>jp.vstone.block.talk.say,784,2048,784,2048,False,163,@</BlockInfo>
 		if(cplay != null){
 		    cplay.stop();
 		}
@@ -3494,25 +3504,25 @@ public class mymain
 		}
 		GlobalVariable.sotawish.Say((String)"ちょっと待ってね",MotionAsSotaWish.MOTION_TYPE_TALK,(int)11,(int)13,(int)11);
 																														//@<EndOfBlock/>
-		localDateTime = LocalDateTime.now();																			//@<BlockInfo>jp.vstone.block.time.getlocaldatetime,848,2048,848,2048,False,160,ローカル時間をロボット内のカレンダーより取得し、変数LocalDateTime lodalDateTimeに代入。取得した情報から日時などを個別に切り出す場合は「日時の切り出しブロック」を使う@</BlockInfo>
+		localDateTime = LocalDateTime.now();																			//@<BlockInfo>jp.vstone.block.time.getlocaldatetime,848,2048,848,2048,False,162,ローカル時間をロボット内のカレンダーより取得し、変数LocalDateTime lodalDateTimeに代入。取得した情報から日時などを個別に切り出す場合は「日時の切り出しブロック」を使う@</BlockInfo>
 																														//@<EndOfBlock/>
-		{																												//@<BlockInfo>jp.vstone.block.time.getdatetimeelement,912,2048,912,2048,False,159,dateTimeに記録された日時情報から、年・月・日・時・分・秒のうち一つをtypeで指定し、変数int getDateTimeElementに代入する@</BlockInfo>
+		{																												//@<BlockInfo>jp.vstone.block.time.getdatetimeelement,912,2048,912,2048,False,161,dateTimeに記録された日時情報から、年・月・日・時・分・秒のうち一つをtypeで指定し、変数int getDateTimeElementに代入する@</BlockInfo>
 			LocalDateTime d = (LocalDateTime)localDateTime;
 			getDateTimeElement = d.getMonthValue();
 		}																												//@<EndOfBlock/>
-		int month=getDateTimeElement;																					//@<BlockInfo>jp.vstone.block.variable,976,2048,976,2048,False,158,break@</BlockInfo>
+		int month=getDateTimeElement;																					//@<BlockInfo>jp.vstone.block.variable,976,2048,976,2048,False,160,break@</BlockInfo>
 																														//@<EndOfBlock/>
-		{																												//@<BlockInfo>jp.vstone.block.time.getdatetimeelement,1040,2048,1040,2048,False,157,dateTimeに記録された日時情報から、年・月・日・時・分・秒のうち一つをtypeで指定し、変数int getDateTimeElementに代入する@</BlockInfo>
+		{																												//@<BlockInfo>jp.vstone.block.time.getdatetimeelement,1040,2048,1040,2048,False,159,dateTimeに記録された日時情報から、年・月・日・時・分・秒のうち一つをtypeで指定し、変数int getDateTimeElementに代入する@</BlockInfo>
 			LocalDateTime d = (LocalDateTime)localDateTime;
 			getDateTimeElement = d.getDayOfMonth();
 		}																												//@<EndOfBlock/>
-		int day=getDateTimeElement;																						//@<BlockInfo>jp.vstone.block.variable,1104,2048,1104,2048,False,156,break@</BlockInfo>
+		int day=getDateTimeElement;																						//@<BlockInfo>jp.vstone.block.variable,1104,2048,1104,2048,False,158,break@</BlockInfo>
 																														//@<EndOfBlock/>
-		Document document;																								//@<BlockInfo>jp.vstone.block.variable,1168,2048,1168,2048,False,155,break@</BlockInfo>
+		Document document;																								//@<BlockInfo>jp.vstone.block.variable,1168,2048,1168,2048,False,157,break@</BlockInfo>
 																														//@<EndOfBlock/>
-		String article="";																								//@<BlockInfo>jp.vstone.block.variable,1232,2048,1232,2048,False,154,break@</BlockInfo>
+		String article="";																								//@<BlockInfo>jp.vstone.block.variable,1232,2048,1232,2048,False,156,break@</BlockInfo>
 																														//@<EndOfBlock/>
-		try {																											//@<BlockInfo>jp.vstone.block.freeproc,1296,2048,1296,2048,False,153,@</BlockInfo>
+		try {																											//@<BlockInfo>jp.vstone.block.freeproc,1296,2048,1296,2048,False,155,@</BlockInfo>
 			document = Jsoup.connect("https://kids.yahoo.co.jp/today/").get();
 			Element element = document.getElementById("dateDtl").child(0).child(0);
 			article = " " + element.text();
@@ -3520,7 +3530,7 @@ public class mymain
 			e.printStackTrace();
 		}
 																														//@<EndOfBlock/>
-		GlobalVariable.sotawish.stop();																					//@<BlockInfo>jp.vstone.block.talk.say,1360,2048,1360,2048,False,152,@</BlockInfo>
+		GlobalVariable.sotawish.stop();																					//@<BlockInfo>jp.vstone.block.talk.say,1360,2048,1360,2048,False,154,@</BlockInfo>
 		if(cplay != null){
 		    cplay.stop();
 		}
@@ -3555,16 +3565,16 @@ public class mymain
 	}																													//@<EndOfBlock/>
 
 	//@<Separate/>
-	public void fastStart()																								//@<BlockInfo>jp.vstone.block.func,336,144,592,144,False,165,@</BlockInfo>
+	public void fastStart()																								//@<BlockInfo>jp.vstone.block.func,336,144,592,144,False,167,@</BlockInfo>
 	throws SpeechRecogAbortException {
 		if(!GlobalVariable.TRUE) throw new SpeechRecogAbortException("default");
 
 																														//@<OutputChild>
-		while(GlobalVariable.TRUE)																						//@<BlockInfo>jp.vstone.block.while.endless,400,144,528,144,False,164,Endless@</BlockInfo>
+		while(GlobalVariable.TRUE)																						//@<BlockInfo>jp.vstone.block.while.endless,400,144,528,144,False,166,Endless@</BlockInfo>
 		{
 
 																														//@<OutputChild>
-			talk1();																									//@<BlockInfo>jp.vstone.block.callfunc.base,464,144,464,144,False,163,@</BlockInfo>	@<EndOfBlock/>
+			talk1();																									//@<BlockInfo>jp.vstone.block.callfunc.base,464,144,464,144,False,165,@</BlockInfo>	@<EndOfBlock/>
 																														//@</OutputChild>
 		}
 																														//@<EndOfBlock/>
@@ -3573,25 +3583,33 @@ public class mymain
 	}																													//@<EndOfBlock/>
 
 	//@<Separate/>
-	public void sayEvent()																								//@<BlockInfo>jp.vstone.block.func,720,2688,2000,2688,False,195,@</BlockInfo>
+	public void sayEvent(String ni,String de)																			//@<BlockInfo>jp.vstone.block.func,720,2688,2128,2688,False,199,@</BlockInfo>
 	throws SpeechRecogAbortException {
 		if(!GlobalVariable.TRUE) throw new SpeechRecogAbortException("default");
 
 																														//@<OutputChild>
-		int ni=speechRecogResult.indexOf("に");																			//@<BlockInfo>jp.vstone.block.variable,784,2688,784,2688,False,194,break@</BlockInfo>
+		speechRecogResult=(String)speechRecogResult.replaceAll("新川", "に井川");											//@<BlockInfo>jp.vstone.block.calculater,784,2688,784,2688,False,198,@</BlockInfo>
 																														//@<EndOfBlock/>
-		int de=speechRecogResult.indexOf("で");																			//@<BlockInfo>jp.vstone.block.variable,848,2688,848,2688,False,193,break@</BlockInfo>
+		int niindex=speechRecogResult.indexOf(ni);																		//@<BlockInfo>jp.vstone.block.variable,848,2688,848,2688,False,197,break@</BlockInfo>
 																														//@<EndOfBlock/>
-		String substr=speechRecogResult.substring(0, ni);																//@<BlockInfo>jp.vstone.block.variable,912,2688,912,2688,False,192,break@</BlockInfo>
+		int deindex=speechRecogResult.indexOf(de, niindex + 1);															//@<BlockInfo>jp.vstone.block.variable,912,2688,912,2688,False,196,break@</BlockInfo>
 																														//@<EndOfBlock/>
-		int sMonth=0;																									//@<BlockInfo>jp.vstone.block.variable,976,2688,976,2688,False,191,break@</BlockInfo>
+		String substr="";																								//@<BlockInfo>jp.vstone.block.variable,976,2688,976,2688,False,195,break@</BlockInfo>
 																														//@<EndOfBlock/>
-		switch((String)substr)																							//@<BlockInfo>jp.vstone.block.switch,1040,2160,1168,2160,False,190,@</BlockInfo>
+		int sMonth=0;																									//@<BlockInfo>jp.vstone.block.variable,1040,2688,1040,2688,False,194,break@</BlockInfo>
+																														//@<EndOfBlock/>
+		try {																											//@<BlockInfo>jp.vstone.block.freeproc,1104,2688,1104,2688,False,193,@</BlockInfo>
+			substr = speechRecogResult.substring(0, niindex);
+		} catch (StringIndexOutOfBoundsException e) {
+			sMonth = 0;
+		}
+																														//@<EndOfBlock/>
+		switch((String)substr)																							//@<BlockInfo>jp.vstone.block.switch,1168,2160,1296,2160,False,192,@</BlockInfo>
 		{
 			case (String)"一月":
 			{
 																														//@<OutputChild>
-				sMonth=(int)1;																								//@<BlockInfo>jp.vstone.block.calculater,1104,2160,1104,2160,False,166,@</BlockInfo>
+				sMonth=(int)1;																								//@<BlockInfo>jp.vstone.block.calculater,1232,2160,1232,2160,False,168,@</BlockInfo>
 																															//@<EndOfBlock/>
 																																//@</OutputChild>
 				break;
@@ -3599,7 +3617,7 @@ public class mymain
 			case (String)"二月":
 			{
 																														//@<OutputChild>
-				sMonth=(int)2;																								//@<BlockInfo>jp.vstone.block.calculater,1104,2256,1104,2256,False,167,@</BlockInfo>
+				sMonth=(int)2;																								//@<BlockInfo>jp.vstone.block.calculater,1232,2256,1232,2256,False,169,@</BlockInfo>
 																															//@<EndOfBlock/>
 																																//@</OutputChild>
 				break;
@@ -3607,7 +3625,7 @@ public class mymain
 			case (String)"三月":
 			{
 																														//@<OutputChild>
-				sMonth=(int)3;																								//@<BlockInfo>jp.vstone.block.calculater,1104,2352,1104,2352,False,168,@</BlockInfo>
+				sMonth=(int)3;																								//@<BlockInfo>jp.vstone.block.calculater,1232,2352,1232,2352,False,170,@</BlockInfo>
 																															//@<EndOfBlock/>
 																																//@</OutputChild>
 				break;
@@ -3615,7 +3633,7 @@ public class mymain
 			case (String)"四月":
 			{
 																														//@<OutputChild>
-				sMonth=(int)4;																								//@<BlockInfo>jp.vstone.block.calculater,1104,2448,1104,2448,False,169,@</BlockInfo>
+				sMonth=(int)4;																								//@<BlockInfo>jp.vstone.block.calculater,1232,2448,1232,2448,False,171,@</BlockInfo>
 																															//@<EndOfBlock/>
 																																//@</OutputChild>
 				break;
@@ -3623,7 +3641,7 @@ public class mymain
 			case (String)"五月":
 			{
 																														//@<OutputChild>
-				sMonth=(int)5;																								//@<BlockInfo>jp.vstone.block.calculater,1104,2544,1104,2544,False,170,@</BlockInfo>
+				sMonth=(int)5;																								//@<BlockInfo>jp.vstone.block.calculater,1232,2544,1232,2544,False,172,@</BlockInfo>
 																															//@<EndOfBlock/>
 																																//@</OutputChild>
 				break;
@@ -3631,7 +3649,7 @@ public class mymain
 			case (String)"六月":
 			{
 																														//@<OutputChild>
-				sMonth=(int)6;																								//@<BlockInfo>jp.vstone.block.calculater,1104,2640,1104,2640,False,171,@</BlockInfo>
+				sMonth=(int)6;																								//@<BlockInfo>jp.vstone.block.calculater,1232,2640,1232,2640,False,173,@</BlockInfo>
 																															//@<EndOfBlock/>
 																																//@</OutputChild>
 				break;
@@ -3639,7 +3657,7 @@ public class mymain
 			case (String)"七月":
 			{
 																														//@<OutputChild>
-				sMonth=(int)7;																								//@<BlockInfo>jp.vstone.block.calculater,1104,2736,1104,2736,False,172,@</BlockInfo>
+				sMonth=(int)7;																								//@<BlockInfo>jp.vstone.block.calculater,1232,2736,1232,2736,False,174,@</BlockInfo>
 																															//@<EndOfBlock/>
 																																//@</OutputChild>
 				break;
@@ -3647,7 +3665,7 @@ public class mymain
 			case (String)"八月":
 			{
 																														//@<OutputChild>
-				sMonth=(int)8;																								//@<BlockInfo>jp.vstone.block.calculater,1104,2832,1104,2832,False,173,@</BlockInfo>
+				sMonth=(int)8;																								//@<BlockInfo>jp.vstone.block.calculater,1232,2832,1232,2832,False,175,@</BlockInfo>
 																															//@<EndOfBlock/>
 																																//@</OutputChild>
 				break;
@@ -3655,7 +3673,7 @@ public class mymain
 			case (String)"九月":
 			{
 																														//@<OutputChild>
-				sMonth=(int)9;																								//@<BlockInfo>jp.vstone.block.calculater,1104,2928,1104,2928,False,174,@</BlockInfo>
+				sMonth=(int)9;																								//@<BlockInfo>jp.vstone.block.calculater,1232,2928,1232,2928,False,176,@</BlockInfo>
 																															//@<EndOfBlock/>
 																																//@</OutputChild>
 				break;
@@ -3663,7 +3681,7 @@ public class mymain
 			case (String)"十月":
 			{
 																														//@<OutputChild>
-				sMonth=(int)10;																								//@<BlockInfo>jp.vstone.block.calculater,1104,3024,1104,3024,False,175,@</BlockInfo>
+				sMonth=(int)10;																								//@<BlockInfo>jp.vstone.block.calculater,1232,3024,1232,3024,False,177,@</BlockInfo>
 																															//@<EndOfBlock/>
 																																//@</OutputChild>
 				break;
@@ -3671,7 +3689,7 @@ public class mymain
 			case (String)"十一月":
 			{
 																														//@<OutputChild>
-				sMonth=(int)11;																								//@<BlockInfo>jp.vstone.block.calculater,1104,3120,1104,3120,False,176,@</BlockInfo>
+				sMonth=(int)11;																								//@<BlockInfo>jp.vstone.block.calculater,1232,3120,1232,3120,False,178,@</BlockInfo>
 																															//@<EndOfBlock/>
 																																//@</OutputChild>
 				break;
@@ -3679,17 +3697,17 @@ public class mymain
 			case (String)"十二月":
 			{
 																														//@<OutputChild>
-				sMonth=(int)12;																								//@<BlockInfo>jp.vstone.block.calculater,1104,3216,1104,3216,False,177,@</BlockInfo>
+				sMonth=(int)12;																								//@<BlockInfo>jp.vstone.block.calculater,1232,3216,1232,3216,False,179,@</BlockInfo>
 																															//@<EndOfBlock/>
 																																//@</OutputChild>
 				break;
 			}
 
 		}																												//@<EndOfBlock/>
-		if(sMonth!=0)																									//@<BlockInfo>jp.vstone.block.if,1232,2640,1936,2640,False,189,コメント@</BlockInfo>
+		if(sMonth!=0)																									//@<BlockInfo>jp.vstone.block.if,1360,2640,2064,2640,False,191,コメント@</BlockInfo>
 		{
 																														//@<OutputChild>
-			GlobalVariable.sotawish.stop();																				//@<BlockInfo>jp.vstone.block.talk.say,1296,2640,1296,2640,False,187,@</BlockInfo>
+			GlobalVariable.sotawish.stop();																				//@<BlockInfo>jp.vstone.block.talk.say,1424,2640,1424,2640,False,189,@</BlockInfo>
 			if(cplay != null){
 			    cplay.stop();
 			}
@@ -3719,15 +3737,15 @@ public class mymain
 			}
 			GlobalVariable.sotawish.Say((String)"ちょっと待ってね",MotionAsSotaWish.MOTION_TYPE_TALK,(int)11,(int)13,(int)11);
 																														//@<EndOfBlock/>
-			String sCity=speechRecogResult.substring(ni + 1, de);														//@<BlockInfo>jp.vstone.block.variable,1360,2640,1360,2640,False,186,break@</BlockInfo>
+			String sCity=speechRecogResult.substring(niindex + 1, deindex);												//@<BlockInfo>jp.vstone.block.variable,1488,2640,1488,2640,False,188,break@</BlockInfo>
 																														//@<EndOfBlock/>
-			Document document;																							//@<BlockInfo>jp.vstone.block.variable,1424,2640,1424,2640,False,185,break@</BlockInfo>
+			Document document;																							//@<BlockInfo>jp.vstone.block.variable,1552,2640,1552,2640,False,187,break@</BlockInfo>
 																														//@<EndOfBlock/>
-			int eventNum=0;																								//@<BlockInfo>jp.vstone.block.variable,1488,2640,1488,2640,False,184,break@</BlockInfo>
+			int eventNum=0;																								//@<BlockInfo>jp.vstone.block.variable,1616,2640,1616,2640,False,186,break@</BlockInfo>
 																														//@<EndOfBlock/>
-			String say_words="";																						//@<BlockInfo>jp.vstone.block.variable,1552,2640,1552,2640,False,183,break@</BlockInfo>
+			String say_words="";																						//@<BlockInfo>jp.vstone.block.variable,1680,2640,1680,2640,False,185,break@</BlockInfo>
 																														//@<EndOfBlock/>
-			try {																										//@<BlockInfo>jp.vstone.block.freeproc,1616,2640,1616,2640,False,182,@</BlockInfo>
+			try {																										//@<BlockInfo>jp.vstone.block.freeproc,1744,2640,1744,2640,False,184,@</BlockInfo>
 				document = Jsoup.connect("https://www.akitafan.com/archive/events").get();
 				Elements events = document.getElementsByClass("tab_panel is_tab_active").first()
 						.getElementsByClass("media");
@@ -3767,10 +3785,10 @@ public class mymain
 				e.printStackTrace();
 			}
 																														//@<EndOfBlock/>
-			if(eventNum>0)																								//@<BlockInfo>jp.vstone.block.if,1680,2592,1872,2592,False,181,コメント@</BlockInfo>
+			if(eventNum>0)																								//@<BlockInfo>jp.vstone.block.if,1808,2592,2000,2592,False,183,コメント@</BlockInfo>
 			{
 																														//@<OutputChild>
-				GlobalVariable.sotawish.stop();																			//@<BlockInfo>jp.vstone.block.talk.say,1744,2592,1744,2592,False,179,@</BlockInfo>
+				GlobalVariable.sotawish.stop();																			//@<BlockInfo>jp.vstone.block.talk.say,1872,2592,1872,2592,False,181,@</BlockInfo>
 				if(cplay != null){
 				    cplay.stop();
 				}
@@ -3800,7 +3818,7 @@ public class mymain
 				}
 				GlobalVariable.sotawish.Say((String)(eventNum + "件見つかりました。"),MotionAsSotaWish.MOTION_TYPE_TALK,(int)11,(int)13,(int)11);
 																														//@<EndOfBlock/>
-				GlobalVariable.sotawish.stop();																			//@<BlockInfo>jp.vstone.block.talk.say,1808,2592,1808,2592,False,178,@</BlockInfo>
+				GlobalVariable.sotawish.stop();																			//@<BlockInfo>jp.vstone.block.talk.say,1936,2592,1936,2592,False,180,@</BlockInfo>
 				if(cplay != null){
 				    cplay.stop();
 				}
@@ -3835,7 +3853,7 @@ public class mymain
 			else
 			{
 																														//@<OutputChild>
-				GlobalVariable.sotawish.stop();																			//@<BlockInfo>jp.vstone.block.talk.say,1744,2688,1744,2688,False,180,@</BlockInfo>
+				GlobalVariable.sotawish.stop();																			//@<BlockInfo>jp.vstone.block.talk.say,1872,2688,1872,2688,False,182,@</BlockInfo>
 				if(cplay != null){
 				    cplay.stop();
 				}
@@ -3873,7 +3891,7 @@ public class mymain
 		else
 		{
 																														//@<OutputChild>
-			GlobalVariable.sotawish.stop();																				//@<BlockInfo>jp.vstone.block.talk.say,1296,2736,1296,2736,False,188,@</BlockInfo>
+			GlobalVariable.sotawish.stop();																				//@<BlockInfo>jp.vstone.block.talk.say,1424,2736,1424,2736,False,190,@</BlockInfo>
 			if(cplay != null){
 			    cplay.stop();
 			}
