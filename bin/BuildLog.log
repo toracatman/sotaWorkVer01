@@ -1,5 +1,5 @@
 VstoneMagic Build&Execute Message Log
-BuildStart time:2019/01/31 10:00:12
+BuildStart time:2019/01/31 10:31:09
 ビルドを開始します。
 E:\VstoneMagic\jdk\bin\javac.exe  -d "E:\sota\sotaWorkVer01\bin"  -g -Xlint:deprecation   -cp ".;C:\Users\user\VstoneMagicData\jar\commons-codec-1.10.jar;C:\Users\user\VstoneMagicData\jar\core-2.2.jar;C:\Users\user\VstoneMagicData\jar\gson-2.6.1.jar;C:\Users\user\VstoneMagicData\jar\javase-2.2.jar;C:\Users\user\VstoneMagicData\jar\jna-4.1.0.jar;C:\Users\user\VstoneMagicData\jar\opencv-310.jar;C:\Users\user\VstoneMagicData\jar\SotaAppManager.jar;C:\Users\user\VstoneMagicData\jar\sotalib.jar;C:\Users\user\VstoneMagicData\jar\SRClientHelper.jar;E:\sota\sotaWorkVer01\jar\jsoup-1.11.3.jar"  -encoding UTF-8 "E:\sota\sotaWorkVer01\src\main\main.java" "E:\sota\sotaWorkVer01\src\jp\co\mysota\mymain.java" 
 
@@ -14,8 +14,8 @@ main/を追加中です(入=0)(出=0)(0%格納されました)
 main/main$GlobalVariable.classを追加中です(入=1625)(出=794)(51%収縮されました)
 main/main.classを追加中です(入=2179)(出=1183)(45%収縮されました)
 jp/co/mysota/を追加中です(入=0)(出=0)(0%格納されました)
-jp/co/mysota/mymain$1.classを追加中です(入=1160)(出=719)(38%収縮されました)
-jp/co/mysota/mymain.classを追加中です(入=56864)(出=19845)(65%収縮されました)
+jp/co/mysota/mymain$1.classを追加中です(入=1160)(出=728)(37%収縮されました)
+jp/co/mysota/mymain.classを追加中です(入=56802)(出=19721)(65%収縮されました)
 
 jarファイルを作成しました。
 
@@ -45,7 +45,7 @@ jarファイルの実行
 192.168.32.63@root
 java -Dfile.encoding=UTF8 -Djava.library.path=/usr/local/share/OpenCV/java/  -Xdebug -Xrunjdwp:transport=dt_socket,server=y,address=8765 -jar sotaWorkVer01.jar 2>&1 &ファイルの転送が完了しました。java -Dfile.encoding=UTF8 -Djava.library.path=/usr/local/share/OpenCV/java/  -Xdebug -Xrunjdwp:transport=dt_socket,server=y,address=8765 -jar sotaWorkVer01.jar 2>&1 &
 [1;32mroot@edison:~$[m java -Dfile.encoding=UTF8 -Djava.library.path=/usr/local/share/OpenCV/java/  -Xdebug -Xrunjdwp:transport=dt_socket,server=y,address=8765 -jar sotaWorkVer01.jar 2>&1 &
-[1] 14825
+[1] 16191
 [1;32mroot@edison:~$[m デバッグの準備ができました。
 
 jdbの実行
@@ -62,7 +62,7 @@ Listening for transport dt_socket at address: 8765
 [Info][TextToSpeechSota][TTS_USE_CACHE] /var/sota/tts//1548810967731.wav
 [Info][CPlayWave]Play /var/sota/tts//1548810967731.wav
 [Info][CPlayWave]isEdison
-[Info][CPlayWave]play------- 14847
+[Info][CPlayWave]play------- 16213
 [Info][MotionAsSotaWish]play 2583
 [Info][MotionAsSotaWish][play][talk] [2183msec]
 [Info][CRoboCamera]StartTask MODE_FACE_TRACK
@@ -76,215 +76,54 @@ Listening for transport dt_socket at address: 8765
 [Info][TextToSpeechSota][TTS_USE_CACHE] /var/sota/tts//1548810628430.wav
 [Info][CPlayWave]Play /var/sota/tts//1548810628430.wav
 [Info][CPlayWave]isEdison
-[Info][CPlayWave]play------- 14887
+[Info][CPlayWave]play------- 16283
 [Info][MotionAsSotaWish]play 3073
 [Info][MotionAsSotaWish][play][talk] [2673msec]
-[Info][SpeechRecog][getRecognition][Score:0.8649353981018066]２の秋田市のイベント
-[Info][SpeechRecog][getRecognition][Score:0.8207676887512207]二月の秋田のイベント
-[Info][SpeechRecog][getRecognition][Score:0.8200295448303223]二月の秋田市市のイベント
-[Info][SpeechRecog][getRecognition][Score:0.9077190399169922]二月の秋田市のイベント
-[Info][SpeechRecog][getRecognition][Score:0.8200825691223145]二月のは秋田市のイベント
-[Info][SpeechRecog][getRecognition][BasicResult] 二月の秋田市のイベント
+[Info][SpeechRecog][getRecognition][Score:0.8068456649780273]バイバーイ
+[Info][SpeechRecog][getRecognition][Score:0.7028788089752198]バイバイｐｉ
+[Info][SpeechRecog][getRecognition][Score:0.8841556549072266]バイバイ
+[Info][SpeechRecog][getRecognition][Score:0.7969642639160157]ｐｉ
+[Info][SpeechRecog][getRecognition][Score:0.8123234748840332]ばいばい
+[Info][SpeechRecog][getRecognition][Score:0.791933822631836]ｂｙｅ−ｂｙｅ
+[Info][SpeechRecog][getRecognition][Score:0.8037376403808594]ｂｙｅｂｙｅ
+[Info][SpeechRecog][getRecognition][Score:0.7973054885864258]売買
+[Info][SpeechRecog][getRecognition][BasicResult] バイバイ
 [Info][MotionAsSotaWish]stop
 [Info][MotionAsSotaWish]cplay stop start
 [Info][MotionAsSotaWish]cplay stop end
-[Info][MotionAsSotaWish][Say][scene:talk]ちょっと待ってね
-[Info][TextToSpeechSota][TTS_USE_CACHE] /var/sota/tts//1548895497494.wav
-[Info][CPlayWave]Play /var/sota/tts//1548895497494.wav
+[Info][MotionAsSotaWish][Say][scene:talk]さようなら、また来てね
+[Info][TextToSpeechSota][TTS_USE_CACHE] /var/sota/tts//1548815455908.wav
+[Info][CPlayWave]Play /var/sota/tts//1548815455908.wav
 [Info][CPlayWave]isEdison
-[Info][CPlayWave]play------- 14936
-[Info][MotionAsSotaWish]play 1329
-[Info][MotionAsSotaWish][play][talk] [929msec]
+[Info][CPlayWave]play------- 16325
+[Info][MotionAsSotaWish]play 2119
+[Info][MotionAsSotaWish][play][talk] [1719msec]
 [Info][CPlayWave]removeShutdownHook
 [Info][CPlayWave]removeShutdownHook
+[Info][SpeechRecog][getRecognition][Score:0.9061090469360352]さようなら
+[Info][SpeechRecog][getRecognition][Score:0.7224177360534668]採用さようなら
+[Info][SpeechRecog][getRecognition][Score:0.7930466175079346]サヨウナラ
+[Info][SpeechRecog][getRecognition][Score:0.8141538619995118]さよなら
+[Info][SpeechRecog][getRecognition][Score:0.796384620666504]なら
+[Info][SpeechRecog][getRecognition][BasicResult] さようなら
 [Info][MotionAsSotaWish]stop
 [Info][MotionAsSotaWish]cplay stop start
 [Info][MotionAsSotaWish]cplay stop end
-[Info][MotionAsSotaWish][Say][scene:talk]8件見つかりました。
-[Info][TextToSpeechSota][get:8件見つかりました。][speechRate:11][pitch:13]][intonation:11][lang:null]
-[Info][CPlayWave]Play /dev/shm/wavtemptts0.wav
+[Info][MotionAsSotaWish][Say][scene:talk]さようなら、また来てね
+[Info][TextToSpeechSota][TTS_USE_CACHE] /var/sota/tts//1548815455908.wav
+[Info][CPlayWave]Play /var/sota/tts//1548815455908.wav
 [Info][CPlayWave]isEdison
-[Info][CPlayWave]play------- 14996
-[Info][MotionAsSotaWish]play 1760
-[Info][MotionAsSotaWish][play][talk] [1360msec]
-[Info][MotionAsSotaWish]stop
-[Info][MotionAsSotaWish]cplay stop start
-[Info][MotionAsSotaWish]cplay stop end
-[Info][MotionAsSotaWish][Say][scene:talk]【ふれあーるAKITA】まんざいを愛する女三人 イベント期間：2019年02月02日 秋田市 秋田万歳を女性三人で披露する「女三人まんざい愛好会」。 他ではなかなか見ることのできない女性三人の楽しいステージをお見逃しなく。主な演目は「経文揃万歳」「噺万歳」「神力万歳」ほか。 【日時】平成31年２月２日(土)13：00～14：00 【企画］女三人まんざい愛好会 【お問合せ】あきた文化交流発信センター「ふれあーるAKITA」Tel.018-884-7341 【関連URL】http://common3.pref.akita.lg.jp/bunka/(ブンカ DE ゲンキ） ★入場無料でご覧頂けます。
-[Info][CPlayWave]removeShutdownHook
-[Info][CPlayWave]removeShutdownHook
-[Info][TextToSpeechSota][get:【ふれあーるAKITA】まんざいを愛する女三人 イベント期間：2019年02月02日 秋田市 秋田万歳を女性三人で披露する「女三人まんざい愛好会」。 他ではなかなか見ることのできない女性三人の楽しいステージをお見逃しなく。主な演目は「経文揃万歳」「噺万歳」「神力万歳」ほか。 【日時】平成31年２月２日(土)13：00～14：00 【企画］女三人まんざい愛好会 【お問合せ】あきた文化交流発信センター「ふれあーるAKITA」Tel.018-884-7341 【関連URL】http://common3.pref.akita.lg.jp/bunka/(ブンカ DE ゲンキ） ★入場無料でご覧頂けます。][speechRate:11][pitch:13]][intonation:11][lang:null]
-[Info][CPlayWave]Play /dev/shm/wavtemptts1.wav
-[Info][CPlayWave]isEdison
-[Info][CPlayWave]play------- 15023
-[Info][MotionAsSotaWish]play 55208
-[Info][MotionAsSotaWish][play][talk] [54808msec]
-[Info][MotionAsSotaWish]stop
-[Info][MotionAsSotaWish]cplay stop start
-[Info][MotionAsSotaWish]cplay stop end
-[Info][MotionAsSotaWish][Say][scene:talk]ようこそ 秋田県庁 第二庁舎 へ
-[Info][TextToSpeechSota][TTS_USE_CACHE] /var/sota/tts//1548810628430.wav
-[Info][CPlayWave]Play /var/sota/tts//1548810628430.wav
-[Info][CPlayWave]isEdison
-[Info][CPlayWave]play------- 15293
-[Info][MotionAsSotaWish]play 3073
-[Info][MotionAsSotaWish][play][talk] [2673msec]
-[Info][SpeechRecog][getRecognition][Score:0.8068382740020752]三月のは町のイベント
-[Info][SpeechRecog][getRecognition][Score:0.8136340777079264]三月の井川町のイベント
-[Info][SpeechRecog][getRecognition][Score:0.8222006162007649]三月の町のイベント
-[Info][SpeechRecog][getRecognition][Score:0.8071592648824055]三月ののイベント
-[Info][SpeechRecog][getRecognition][Score:0.8022529284159342]三月の井川井川町のイベント
-[Info][SpeechRecog][getRecognition][BasicResult] 三月の町のイベント
-[Info][MotionAsSotaWish]stop
-[Info][MotionAsSotaWish]cplay stop start
-[Info][MotionAsSotaWish]cplay stop end
-[Info][MotionAsSotaWish][Say][scene:talk]ちょっと待ってね
-[Info][TextToSpeechSota][TTS_USE_CACHE] /var/sota/tts//1548895497494.wav
-[Info][CPlayWave]Play /var/sota/tts//1548895497494.wav
-[Info][CPlayWave]isEdison
-[Info][CPlayWave]play------- 15340
-[Info][MotionAsSotaWish]play 1329
-[Info][MotionAsSotaWish][play][talk] [929msec]
-[Info][MotionAsSotaWish]stop
-[Info][MotionAsSotaWish]cplay stop start
-[Info][MotionAsSotaWish]cplay stop end
-[Info][MotionAsSotaWish][Say][scene:talk]1件も見つかりませんでした。
-[Info][TextToSpeechSota][TTS_USE_CACHE] /var/sota/tts//1548817173306.wav
-[Info][CPlayWave]Play /var/sota/tts//1548817173306.wav
-[Info][CPlayWave]isEdison
-[Info][CPlayWave]play------- 15368
-[Info][MotionAsSotaWish]play 2232
-[Info][MotionAsSotaWish][play][talk] [1832msec]
-[Info][SpeechRecog][getRecognition][Score:0.8195134003957112]三月のは町のイベント
-[Info][SpeechRecog][getRecognition][Score:0.7996464570363362]三月の石川町町のイベント
-[Info][SpeechRecog][getRecognition][Score:0.8121503988901774]三月の町のイベント
-[Info][SpeechRecog][getRecognition][Score:0.7993306318918864]三月のはのイベント
-[Info][SpeechRecog][getRecognition][Score:0.7978460788726807]三月の西山町のイベント
-[Info][SpeechRecog][getRecognition][Score:0.7919674714406331]三月ののイベント
-[Info][SpeechRecog][getRecognition][Score:0.7977952162424723]三月の市川町のイベント
-[Info][SpeechRecog][getRecognition][BasicResult] 三月のは町のイベント
-[Info][MotionAsSotaWish]stop
-[Info][MotionAsSotaWish]cplay stop start
-[Info][MotionAsSotaWish]cplay stop end
-[Info][MotionAsSotaWish][Say][scene:talk]ちょっと待ってね
-[Info][TextToSpeechSota][TTS_USE_CACHE] /var/sota/tts//1548895497494.wav
-[Info][CPlayWave]Play /var/sota/tts//1548895497494.wav
-[Info][CPlayWave]isEdison
-[Info][CPlayWave]play------- 15411
-[Info][MotionAsSotaWish]play 1329
-[Info][MotionAsSotaWish][play][talk] [929msec]
-[Info][CPlayWave]removeShutdownHook
-[Info][CPlayWave]removeShutdownHook
-[Info][CPlayWave]removeShutdownHook
-[Info][CPlayWave]removeShutdownHook
-[Info][MotionAsSotaWish]stop
-[Info][MotionAsSotaWish]cplay stop start
-[Info][MotionAsSotaWish]cplay stop end
-[Info][MotionAsSotaWish][Say][scene:talk]1件も見つかりませんでした。
-[Info][TextToSpeechSota][TTS_USE_CACHE] /var/sota/tts//1548817173306.wav
-[Info][CPlayWave]Play /var/sota/tts//1548817173306.wav
-[Info][CPlayWave]isEdison
-[Info][CPlayWave]play------- 15435
-[Info][MotionAsSotaWish]play 2232
-[Info][MotionAsSotaWish][play][talk] [1832msec]
-[Info][MotionAsSotaWish]stop
-[Info][MotionAsSotaWish]cplay stop start
-[Info][MotionAsSotaWish]cplay stop end
-[Info][MotionAsSotaWish][Say][scene:talk]ようこそ 秋田県庁 第二庁舎 へ
-[Info][TextToSpeechSota][TTS_USE_CACHE] /var/sota/tts//1548810628430.wav
-[Info][CPlayWave]Play /var/sota/tts//1548810628430.wav
-[Info][CPlayWave]isEdison
-[Info][CPlayWave]play------- 15468
-[Info][MotionAsSotaWish]play 3073
-[Info][MotionAsSotaWish][play][talk] [2673msec]
-[Info][SpeechRecog][getRecognition][Score:0.7632900873819987]一月のイカを町のイベント
-[Info][SpeechRecog][getRecognition][Score:0.7773017883300781]一月のイカ町のイベント
-[Info][SpeechRecog][getRecognition][Score:0.7600459416707357]一月のイカをのイベント
-[Info][SpeechRecog][getRecognition][Score:0.774057642618815]一月のイカのイベント
-[Info][SpeechRecog][getRecognition][BasicResult] 一月のイカ町のイベント
-[Info][MotionAsSotaWish]stop
-[Info][MotionAsSotaWish]cplay stop start
-[Info][MotionAsSotaWish]cplay stop end
-[Info][MotionAsSotaWish][Say][scene:talk]ちょっと待ってね
-[Info][TextToSpeechSota][TTS_USE_CACHE] /var/sota/tts//1548895497494.wav
-[Info][CPlayWave]Play /var/sota/tts//1548895497494.wav
-[Info][CPlayWave]isEdison
-[Info][CPlayWave]play------- 15512
-[Info][MotionAsSotaWish]play 1329
-[Info][MotionAsSotaWish][play][talk] [929msec]
-[Info][CPlayWave]removeShutdownHook
-[Info][CPlayWave]removeShutdownHook
-[Info][CPlayWave]removeShutdownHook
-[Info][MotionAsSotaWish]stop
-[Info][MotionAsSotaWish]cplay stop start
-[Info][MotionAsSotaWish]cplay stop end
-[Info][MotionAsSotaWish][Say][scene:talk]1件も見つかりませんでした。
-[Info][TextToSpeechSota][TTS_USE_CACHE] /var/sota/tts//1548817173306.wav
-[Info][CPlayWave]Play /var/sota/tts//1548817173306.wav
-[Info][CPlayWave]isEdison
-[Info][CPlayWave]play------- 15539
-[Info][MotionAsSotaWish]play 2232
-[Info][MotionAsSotaWish][play][talk] [1832msec]
-[Info][SpeechRecog][getRecognition][Score:0.7874496166522686]四月の町のイベント
-[Info][SpeechRecog][getRecognition][Score:0.7717628479003906]四月の井川町のイベント
-[Info][SpeechRecog][getRecognition][Score:0.7781017010028546]四月のは町のイベント
-[Info][SpeechRecog][getRecognition][BasicResult] 四月の町のイベント
-[Info][MotionAsSotaWish]stop
-[Info][MotionAsSotaWish]cplay stop start
-[Info][MotionAsSotaWish]cplay stop end
-[Info][MotionAsSotaWish][Say][scene:talk]ちょっと待ってね
-[Info][TextToSpeechSota][TTS_USE_CACHE] /var/sota/tts//1548895497494.wav
-[Info][CPlayWave]Play /var/sota/tts//1548895497494.wav
-[Info][CPlayWave]isEdison
-[Info][CPlayWave]play------- 15587
-[Info][MotionAsSotaWish]play 1329
-[Info][MotionAsSotaWish][play][talk] [929msec]
-[Info][MotionAsSotaWish]stop
-[Info][MotionAsSotaWish]cplay stop start
-[Info][MotionAsSotaWish]cplay stop end
-[Info][MotionAsSotaWish][Say][scene:talk]1件も見つかりませんでした。
-[Info][TextToSpeechSota][TTS_USE_CACHE] /var/sota/tts//1548817173306.wav
-[Info][CPlayWave]Play /var/sota/tts//1548817173306.wav
-[Info][CPlayWave]isEdison
-[Info][CPlayWave]play------- 15610
-[Info][MotionAsSotaWish]play 2232
-[Info][MotionAsSotaWish][play][talk] [1832msec]
-[Info][CPlayWave]removeShutdownHook
-[Info][CPlayWave]removeShutdownHook
-[Info][CPlayWave]removeShutdownHook
-[Info][SpeechRecog][getRecognition][Score:0.8682299852371216]二月新川町で開催されるイベント
-[Info][SpeechRecog][getRecognition][Score:0.856311559677124]二月に町で開催されるイベント
-[Info][SpeechRecog][getRecognition][Score:0.8414333462715149]二月に井川町で開催されるイベント
-[Info][SpeechRecog][getRecognition][Score:0.8533517718315125]二月新川井川町で開催されるイベント
-[Info][SpeechRecog][getRecognition][Score:0.8465282320976257]二月二町で開催されるイベント
-[Info][SpeechRecog][getRecognition][BasicResult] 二月新川町で開催されるイベント
-[Info][MotionAsSotaWish]stop
-[Info][MotionAsSotaWish]cplay stop start
-[Info][MotionAsSotaWish]cplay stop end
-[Info][MotionAsSotaWish][Say][scene:talk]ちょっと待ってね
-[Info][TextToSpeechSota][TTS_USE_CACHE] /var/sota/tts//1548895497494.wav
-[Info][CPlayWave]Play /var/sota/tts//1548895497494.wav
-[Info][CPlayWave]isEdison
-[Info][CPlayWave]play------- 15657
-[Info][MotionAsSotaWish]play 1329
-[Info][MotionAsSotaWish][play][talk] [929msec]
-[Info][MotionAsSotaWish]stop
-[Info][MotionAsSotaWish]cplay stop start
-[Info][MotionAsSotaWish]cplay stop end
-[Info][MotionAsSotaWish][Say][scene:talk]1件も見つかりませんでした。
-[Info][TextToSpeechSota][TTS_USE_CACHE] /var/sota/tts//1548817173306.wav
-[Info][CPlayWave]Play /var/sota/tts//1548817173306.wav
-[Info][CPlayWave]isEdison
-[Info][CPlayWave]play------- 15679
-[Info][MotionAsSotaWish]play 2232
-[Info][MotionAsSotaWish][play][talk] [1832msec]
-[Info][CPlayWave]removeShutdownHook
+[Info][CPlayWave]play------- 16363
+[Info][MotionAsSotaWish]play 2119
+[Info][MotionAsSotaWish][play][talk] [1719msec]
 [Info][CPlayWave]removeShutdownHook
 
-kill ` jps|grep "^[0-9]\+ jar" |awk '{print $1}'`中断します。
-exit
-[1;32mroot@edison:~$[m 
-[1;32mroot@edison:~$[m main[1] > kill ` jps|grListening for transport dt_socket at address: 8765
-ep "^[0-9]\+ jar" |awk '{print $1}'`
+kill ` jps|grep "^[0-9]\+ jar" |awk '{print $1}'`Listening for transport dt_socket at address: 8765
+
+中断します。
+exit[1;32mroot@edison:~$[m 
+main[1] > [1;32mroot@edison:~$[m kill ` jps|grep "^[0-9]\+ jar" |awk '{print $1}'`
 
 ロボットとの通信を切断しました。
+failed in sendDebugCommand:quit
+StandardIn がリダイレクトされていません。
