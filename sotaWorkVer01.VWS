@@ -110,7 +110,7 @@
 		<jarFileName>sotaWorkVer01.jar</jarFileName>
 	</appPropaty>
 	<defaultInipos>0</defaultInipos>
-	<defaultRobotUsers>1</defaultRobotUsers>
+	<defaultRobotUsers>0</defaultRobotUsers>
 	<iniPoses>
 		<Pose>
 			<category i:nil="true" />
@@ -3510,8 +3510,8 @@
 				</uintID>
 			</MotSend>
 			<debugPort>8765</debugPort>
-			<host>169.1.1.1</host>
-			<password>password</password>
+			<host>192.168.37.68</host>
+			<password></password>
 			<platform>Edison</platform>
 			<rootPath>/home/root/</rootPath>
 			<sshPort>22</sshPort>
