@@ -1011,7 +1011,7 @@ public class mymain
 																														//@<OutputChild>
 		recogresult = GlobalVariable.recog.getRecognitionwithAbort((int)60000);											//@<BlockInfo>jp.vstone.block.talk.speechrecog.regex2,96,576,288,576,False,103,音声認識を行い、結果を条件に正規表現文字列で比較する。認識スコアが一番高い結果に分岐する。実際に認識された文字列はspeechRecogResultに代入される@</BlockInfo>
 		speechRecogResult = recogresult.CheckBest(new String[]{
-		 ".*こんにちは.*" ,  ".*ここはどこ.*" ,  ".*お名前は.*" ,  ".*(バイバイ|さようなら).*" ,  ".*おはよう.*" ,  ".*元気.*" ,  ".*今日の天気は.*" ,  ".*ありがとう.*" ,  ".*今日は何日.*" ,  ".*いま何時.*" ,  ".*教育庁.*" ,  ".*高校教育.*" ,  ".*特別支援教育.*" ,  ".*義務教育.*" ,  ".*保健体育.*" ,  ".*幼保.*" ,  ".*公営企業.*" ,  ".*うまいもの.*" ,  ".*スポーツ振興.*" ,  ".*文化振興.*" ,  ".*文化財保護.*" ,  ".*生涯学習.*" ,  ".*福利.*" ,  ".*施設整備.*" ,  ".*情報規格.*" ,  ".*情報化研修.*" ,  ".*総合防災.*" ,  ".*災害対策本部.*" ,  ".*産業労働.*" ,  ".*三ローブ.*" ,  ".*デジタル.*" ,  ".*資源エネルギー産業.*" ,  ".*産業集積.*" ,  ".*産業政策.*" ,  ".*地域産業振興.*" ,  ".*ちさんか.*" ,  ".*食品工業.*" ,  ".*輸送機.*" ,  ".*商業貿易.*" ,  ".*雇用労働.*" ,  ".*活性化センター.*" ,  ".*観光文化スポーツ.*" ,  ".*観光連盟.*" ,  ".*観光振興.*" ,  ".*交通政策.*" ,  ".*観光戦略.*" ,  ".*北秋田市.*観光スポット.*" ,  ".*秋田市.*観光スポット.*" ,  ".*仙北市.*観光スポット.*" ,  ".*横手市.*観光スポット.*" ,  ".*由利本荘市.*観光スポット.*" ,  ".*大館市.*観光スポット.*" ,  ".*男鹿市.*観光スポット.*" ,  ".*湯沢市.*観光スポット.*" ,  ".*鹿角市.*観光スポット.*" ,  ".*八峰町.*観光スポット.*" ,  ".*小坂町.*観光スポット.*" ,  ".*上小阿仁村.*観光スポット.*" ,  ".*藤里町.*観光スポット.*" ,  ".*三種町.*観光スポット.*" ,  ".*五城目町.*観光スポット.*" ,  ".*八郎潟町.*観光スポット.*" ,  ".*井川町.*観光スポット.*" ,  ".*能代市.*観光スポット.*" ,  ".*大潟村.*観光スポット.*" ,  ".*美郷町.*観光スポット.*" ,  ".*羽後町.*観光スポット.*" ,  ".*東成瀬村.*観光スポット.*" ,  ".*潟上市.*観光スポット.*" ,  ".*にかほ市.*観光スポット.*" ,  ".*大仙市.*観光スポット.*" ,  ".+に.+で.*イベント.*" ,  ".+の.+のイベント.*" ,  ".*いくつに見える.*" ,  "" , 
+		 ".*こんにちは.*" ,  ".*ここはどこ.*" ,  ".*お名前は.*" ,  ".*(バイバイ|さようなら).*" ,  ".*おはよう.*" ,  ".*元気.*" ,  ".*今日の天気は.*" ,  ".*ありがとう.*" ,  ".*今日は何日.*" ,  ".*いま何時.*" ,  ".*教育庁.*" ,  ".*高校教育.*" ,  ".*特別支援教育.*" ,  ".*義務教育.*" ,  ".*保健体育.*" ,  ".*幼保.*" ,  ".*公営企業.*" ,  ".*うまいもの.*" ,  ".*スポーツ振興.*" ,  ".*文化振興.*" ,  ".*文化財保護.*" ,  ".*生涯学習.*" ,  ".*福利.*" ,  ".*施設整備.*" ,  ".*情報規格.*" ,  ".*情報化研修.*" ,  ".*総合防災.*" ,  ".*災害対策本部.*" ,  ".*産業労働.*" ,  ".*三ローブ.*" ,  ".*デジタル.*" ,  ".*資源エネルギー産業.*" ,  ".*産業集積.*" ,  ".*産業政策.*" ,  ".*地域産業振興.*" ,  ".*ちさんか.*" ,  ".*食品工業.*" ,  ".*輸送機.*" ,  ".*商業貿易.*" ,  ".*雇用労働.*" ,  ".*活性化センター.*" ,  ".*観光文化スポーツ.*" ,  ".*観光連盟.*" ,  ".*観光振興.*" ,  ".*交通政策.*" ,  ".*観光戦略.*" ,  ".*北秋田市.*観光.*" ,  ".*秋田市.*観光.*" ,  ".*仙北市.*観光.*" ,  ".*横手市.*観光.*" ,  ".*由利本荘市.*観光.*" ,  ".*大館市.*観光.*" ,  ".*男鹿市.*観光.*" ,  ".*湯沢市.*観光.*" ,  ".*鹿角市.*観光.*" ,  ".*八峰町.*観光.*" ,  ".*小坂町.*観光.*" ,  ".*上小阿仁村.*観光.*" ,  ".*藤里町.*観光.*" ,  ".*三種町.*観光.*" ,  ".*五城目町.*観光.*" ,  ".*八郎潟町.*観光.*" ,  ".*井川町.*観光.*" ,  ".*能代市.*観光.*" ,  ".*大潟村.*観光.*" ,  ".*美郷町.*観光.*" ,  ".*羽後町.*観光.*" ,  ".*東成瀬村.*観光.*" ,  ".*潟上市.*観光.*" ,  ".*にかほ市.*観光.*" ,  ".*大仙市.*観光.*" ,  ".+に.+で.*イベント.*" ,  ".+の.+のイベント.*" ,  ".*いくつに見える.*" ,  "" , 
 		},true);
 		if(speechRecogResult == null) speechRecogResult = "";
 
@@ -2722,7 +2722,7 @@ public class mymain
 																																//@</OutputChild>
 
 		}
-		else if(speechRecogResult.contains((String)".*北秋田市.*観光スポット.*"))
+		else if(speechRecogResult.contains((String)".*北秋田市.*観光.*"))
 		{
 			speechRecogResult = recogresult.getBasicResult();
 			if(speechRecogResult == null) speechRecogResult = "";
@@ -2761,7 +2761,7 @@ public class mymain
 																																//@</OutputChild>
 
 		}
-		else if(speechRecogResult.contains((String)".*秋田市.*観光スポット.*"))
+		else if(speechRecogResult.contains((String)".*秋田市.*観光.*"))
 		{
 			speechRecogResult = recogresult.getBasicResult();
 			if(speechRecogResult == null) speechRecogResult = "";
@@ -2800,7 +2800,7 @@ public class mymain
 																																//@</OutputChild>
 
 		}
-		else if(speechRecogResult.contains((String)".*仙北市.*観光スポット.*"))
+		else if(speechRecogResult.contains((String)".*仙北市.*観光.*"))
 		{
 			speechRecogResult = recogresult.getBasicResult();
 			if(speechRecogResult == null) speechRecogResult = "";
@@ -2839,7 +2839,7 @@ public class mymain
 																																//@</OutputChild>
 
 		}
-		else if(speechRecogResult.contains((String)".*横手市.*観光スポット.*"))
+		else if(speechRecogResult.contains((String)".*横手市.*観光.*"))
 		{
 			speechRecogResult = recogresult.getBasicResult();
 			if(speechRecogResult == null) speechRecogResult = "";
@@ -2878,7 +2878,7 @@ public class mymain
 																																//@</OutputChild>
 
 		}
-		else if(speechRecogResult.contains((String)".*由利本荘市.*観光スポット.*"))
+		else if(speechRecogResult.contains((String)".*由利本荘市.*観光.*"))
 		{
 			speechRecogResult = recogresult.getBasicResult();
 			if(speechRecogResult == null) speechRecogResult = "";
@@ -2917,7 +2917,7 @@ public class mymain
 																																//@</OutputChild>
 
 		}
-		else if(speechRecogResult.contains((String)".*大館市.*観光スポット.*"))
+		else if(speechRecogResult.contains((String)".*大館市.*観光.*"))
 		{
 			speechRecogResult = recogresult.getBasicResult();
 			if(speechRecogResult == null) speechRecogResult = "";
@@ -2956,7 +2956,7 @@ public class mymain
 																																//@</OutputChild>
 
 		}
-		else if(speechRecogResult.contains((String)".*男鹿市.*観光スポット.*"))
+		else if(speechRecogResult.contains((String)".*男鹿市.*観光.*"))
 		{
 			speechRecogResult = recogresult.getBasicResult();
 			if(speechRecogResult == null) speechRecogResult = "";
@@ -2995,7 +2995,7 @@ public class mymain
 																																//@</OutputChild>
 
 		}
-		else if(speechRecogResult.contains((String)".*湯沢市.*観光スポット.*"))
+		else if(speechRecogResult.contains((String)".*湯沢市.*観光.*"))
 		{
 			speechRecogResult = recogresult.getBasicResult();
 			if(speechRecogResult == null) speechRecogResult = "";
@@ -3034,7 +3034,7 @@ public class mymain
 																																//@</OutputChild>
 
 		}
-		else if(speechRecogResult.contains((String)".*鹿角市.*観光スポット.*"))
+		else if(speechRecogResult.contains((String)".*鹿角市.*観光.*"))
 		{
 			speechRecogResult = recogresult.getBasicResult();
 			if(speechRecogResult == null) speechRecogResult = "";
@@ -3073,7 +3073,7 @@ public class mymain
 																																//@</OutputChild>
 
 		}
-		else if(speechRecogResult.contains((String)".*八峰町.*観光スポット.*"))
+		else if(speechRecogResult.contains((String)".*八峰町.*観光.*"))
 		{
 			speechRecogResult = recogresult.getBasicResult();
 			if(speechRecogResult == null) speechRecogResult = "";
@@ -3112,7 +3112,7 @@ public class mymain
 																																//@</OutputChild>
 
 		}
-		else if(speechRecogResult.contains((String)".*小坂町.*観光スポット.*"))
+		else if(speechRecogResult.contains((String)".*小坂町.*観光.*"))
 		{
 			speechRecogResult = recogresult.getBasicResult();
 			if(speechRecogResult == null) speechRecogResult = "";
@@ -3151,7 +3151,7 @@ public class mymain
 																																//@</OutputChild>
 
 		}
-		else if(speechRecogResult.contains((String)".*上小阿仁村.*観光スポット.*"))
+		else if(speechRecogResult.contains((String)".*上小阿仁村.*観光.*"))
 		{
 			speechRecogResult = recogresult.getBasicResult();
 			if(speechRecogResult == null) speechRecogResult = "";
@@ -3190,7 +3190,7 @@ public class mymain
 																																//@</OutputChild>
 
 		}
-		else if(speechRecogResult.contains((String)".*藤里町.*観光スポット.*"))
+		else if(speechRecogResult.contains((String)".*藤里町.*観光.*"))
 		{
 			speechRecogResult = recogresult.getBasicResult();
 			if(speechRecogResult == null) speechRecogResult = "";
@@ -3229,7 +3229,7 @@ public class mymain
 																																//@</OutputChild>
 
 		}
-		else if(speechRecogResult.contains((String)".*三種町.*観光スポット.*"))
+		else if(speechRecogResult.contains((String)".*三種町.*観光.*"))
 		{
 			speechRecogResult = recogresult.getBasicResult();
 			if(speechRecogResult == null) speechRecogResult = "";
@@ -3268,7 +3268,7 @@ public class mymain
 																																//@</OutputChild>
 
 		}
-		else if(speechRecogResult.contains((String)".*五城目町.*観光スポット.*"))
+		else if(speechRecogResult.contains((String)".*五城目町.*観光.*"))
 		{
 			speechRecogResult = recogresult.getBasicResult();
 			if(speechRecogResult == null) speechRecogResult = "";
@@ -3307,7 +3307,7 @@ public class mymain
 																																//@</OutputChild>
 
 		}
-		else if(speechRecogResult.contains((String)".*八郎潟町.*観光スポット.*"))
+		else if(speechRecogResult.contains((String)".*八郎潟町.*観光.*"))
 		{
 			speechRecogResult = recogresult.getBasicResult();
 			if(speechRecogResult == null) speechRecogResult = "";
@@ -3346,7 +3346,7 @@ public class mymain
 																																//@</OutputChild>
 
 		}
-		else if(speechRecogResult.contains((String)".*井川町.*観光スポット.*"))
+		else if(speechRecogResult.contains((String)".*井川町.*観光.*"))
 		{
 			speechRecogResult = recogresult.getBasicResult();
 			if(speechRecogResult == null) speechRecogResult = "";
@@ -3385,7 +3385,7 @@ public class mymain
 																																//@</OutputChild>
 
 		}
-		else if(speechRecogResult.contains((String)".*能代市.*観光スポット.*"))
+		else if(speechRecogResult.contains((String)".*能代市.*観光.*"))
 		{
 			speechRecogResult = recogresult.getBasicResult();
 			if(speechRecogResult == null) speechRecogResult = "";
@@ -3424,7 +3424,7 @@ public class mymain
 																																//@</OutputChild>
 
 		}
-		else if(speechRecogResult.contains((String)".*大潟村.*観光スポット.*"))
+		else if(speechRecogResult.contains((String)".*大潟村.*観光.*"))
 		{
 			speechRecogResult = recogresult.getBasicResult();
 			if(speechRecogResult == null) speechRecogResult = "";
@@ -3463,7 +3463,7 @@ public class mymain
 																																//@</OutputChild>
 
 		}
-		else if(speechRecogResult.contains((String)".*美郷町.*観光スポット.*"))
+		else if(speechRecogResult.contains((String)".*美郷町.*観光.*"))
 		{
 			speechRecogResult = recogresult.getBasicResult();
 			if(speechRecogResult == null) speechRecogResult = "";
@@ -3502,7 +3502,7 @@ public class mymain
 																																//@</OutputChild>
 
 		}
-		else if(speechRecogResult.contains((String)".*羽後町.*観光スポット.*"))
+		else if(speechRecogResult.contains((String)".*羽後町.*観光.*"))
 		{
 			speechRecogResult = recogresult.getBasicResult();
 			if(speechRecogResult == null) speechRecogResult = "";
@@ -3541,7 +3541,7 @@ public class mymain
 																																//@</OutputChild>
 
 		}
-		else if(speechRecogResult.contains((String)".*東成瀬村.*観光スポット.*"))
+		else if(speechRecogResult.contains((String)".*東成瀬村.*観光.*"))
 		{
 			speechRecogResult = recogresult.getBasicResult();
 			if(speechRecogResult == null) speechRecogResult = "";
@@ -3580,7 +3580,7 @@ public class mymain
 																																//@</OutputChild>
 
 		}
-		else if(speechRecogResult.contains((String)".*潟上市.*観光スポット.*"))
+		else if(speechRecogResult.contains((String)".*潟上市.*観光.*"))
 		{
 			speechRecogResult = recogresult.getBasicResult();
 			if(speechRecogResult == null) speechRecogResult = "";
@@ -3619,7 +3619,7 @@ public class mymain
 																																//@</OutputChild>
 
 		}
-		else if(speechRecogResult.contains((String)".*にかほ市.*観光スポット.*"))
+		else if(speechRecogResult.contains((String)".*にかほ市.*観光.*"))
 		{
 			speechRecogResult = recogresult.getBasicResult();
 			if(speechRecogResult == null) speechRecogResult = "";
@@ -3658,7 +3658,7 @@ public class mymain
 																																//@</OutputChild>
 
 		}
-		else if(speechRecogResult.contains((String)".*大仙市.*観光スポット.*"))
+		else if(speechRecogResult.contains((String)".*大仙市.*観光.*"))
 		{
 			speechRecogResult = recogresult.getBasicResult();
 			if(speechRecogResult == null) speechRecogResult = "";
